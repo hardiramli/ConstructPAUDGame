@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <event-block sid="361201048670819">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="200503321157475" type="Sprite" />
+                <condition id="1" name="Is overlapping another object" sid="724458259322226" type="Sprite">
+                    <param id="0" name="Object">9patch</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-19" name="Rotate counter-clockwise" sid="347621914887701" type="Sprite">
+                    <param id="0" name="Degrees">30</param>
+                </action>
+                <action id="0" name="Set text" sid="805109661357129" type="Text">
+                    <param id="0" name="Text">&quot;MASUK&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="253860190453214">
+            <conditions>
+                <condition id="-18" name="On created" sid="579137158057571" type="Text" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="118393856861457" type="Text">
+                    <param id="0" name="Text">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
