@@ -3,6 +3,8 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 1</name>
     <events>
+        <variable constant="0" name="PuzzleNumber" sid="870305854936609" static="0" type="number">0</variable>
+        <variable constant="0" name="PiecePlaced" sid="366590562756262" static="0" type="number">0</variable>
         <event-group description="" inactive="1" sid="300550448224326" title="GroupObjek">
             <sub-events>
                 <event-block sid="361201048670819">
@@ -93,6 +95,10 @@
                 <action id="-15" name="Set visible" sid="354710111852230" type="Text">
                     <param id="0" name="Visibility">0</param>
                 </action>
+                <action id="-12" name="Set group active" sid="506227310495407" type="System">
+                    <param id="0" name="Group name">&quot;GroupObjek&quot;</param>
+                    <param id="1" name="State">0</param>
+                </action>
                 <action id="-15" name="Set visible" sid="346604735228600" type="Sprite">
                     <param id="0" name="Visibility">0</param>
                 </action>
@@ -105,34 +111,30 @@
                 <action behavior="DragDrop" id="0" name="Set enabled" sid="291829702328004" type="Sprite3">
                     <param id="0" name="State">0</param>
                 </action>
-            </actions>
-        </event-block>
-        <event-block sid="102456454142067">
-            <conditions>
-                <condition id="0" name="On function" sid="318164081090735" type="Function">
-                    <param id="0" name="Name">&quot;ShowPlacedText&quot;</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="0" name="Set text" sid="805109661357129" type="Text">
-                    <param id="0" name="Text">&quot;MASUK&quot;</param>
+                <action id="0" name="Set text" sid="902214646231354" type="Text">
+                    <param id="0" name="Text">&quot;Test masuk puzzle&quot;</param>
                 </action>
-                <action id="-15" name="Set visible" sid="604548122296868" type="Text">
+                <action id="-15" name="Set visible" sid="225367990681936" type="Text">
                     <param id="0" name="Visibility">1</param>
                 </action>
-                <action id="-16" name="Wait" sid="429162621887054" type="System">
+                <action id="-16" name="Wait" sid="496579425587780" type="System">
                     <param id="0" name="Seconds">2</param>
                 </action>
-                <action id="-15" name="Set visible" sid="428324911083136" type="Text">
+                <action id="-15" name="Set visible" sid="369058509084511" type="Text">
                     <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-10" name="Add to" sid="797920491780059" type="System">
+                    <param id="0" name="Variable">PuzzleNumber</param>
+                    <param id="1" name="Value">1</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="334479966928335">
+        <event-block sid="416736776684574">
             <conditions>
-                <condition id="0" name="On click" sid="163619085400713" type="Mouse">
-                    <param id="0" name="Mouse button">2</param>
-                    <param id="1" name="Click type">0</param>
+                <condition id="-14" name="Compare variable" sid="898679496370213" type="System">
+                    <param id="0" name="Variable">PuzzleNumber</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
                 </condition>
             </conditions>
             <actions>
@@ -154,5 +156,67 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="102456454142067">
+            <conditions>
+                <condition id="0" name="On function" sid="318164081090735" type="Function">
+                    <param id="0" name="Name">&quot;ShowPlacedText&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="266480513491668" type="System">
+                    <param id="0" name="Variable">PiecePlaced</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Set text" sid="805109661357129" type="Text">
+                    <param id="0" name="Text">&quot;MASUK&quot;</param>
+                </action>
+                <action id="-15" name="Set visible" sid="604548122296868" type="Text">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="429162621887054" type="System">
+                    <param id="0" name="Seconds">2</param>
+                </action>
+                <action id="-15" name="Set visible" sid="428324911083136" type="Text">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="455944894962786">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="872824917925349" type="System">
+                    <param id="0" name="Variable">PiecePlaced</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="818383489746949" type="System">
+                    <param id="0" name="Variable">PuzzleNumber</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="786754609384440" type="Text">
+                    <param id="0" name="Text">&quot;COMPLETE&quot;</param>
+                </action>
+                <action id="-15" name="Set visible" sid="190609781640776" type="Text">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="291920547815542" type="System">
+                    <param id="0" name="Seconds">2</param>
+                </action>
+                <action id="-15" name="Set visible" sid="183729661557033" type="Text">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="884068010156103" type="System">
+                    <param id="0" name="Variable">PiecePlaced</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-10" name="Add to" sid="940921469757889" type="System">
+                    <param id="0" name="Variable">PuzzleNumber</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <comment>Dibawah PiecePlaced to 0 ganti ke puzzle nomor sekian</comment>
     </events>
 </c2eventsheet>
