@@ -3,50 +3,91 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 1</name>
     <events>
-        <event-block sid="361201048670819">
-            <conditions>
-                <condition behavior="DragDrop" id="2" name="On drop" sid="200503321157475" type="Sprite" />
-                <condition id="1" name="Is overlapping another object" sid="724458259322226" type="Sprite">
-                    <param id="0" name="Object">Sprite2</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action behavior="DragDrop" id="0" name="Set enabled" sid="173325170816418" type="Sprite">
-                    <param id="0" name="State">0</param>
-                </action>
-                <action id="-4" name="Set position to another object" sid="266204313842796" type="Sprite">
-                    <param id="0" name="Object">Sprite2</param>
-                    <param id="1" name="Image point (optional)">0</param>
-                </action>
-                <action id="0" name="Call function" sid="422123551729503" type="Function">
-                    <param id="0" name="Name">&quot;ShowPlacedText&quot;</param>
-                    <param id="1" name="Parameter {n}"></param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="403426884261476">
-            <conditions>
-                <condition id="7" name="Cursor is over object" sid="763958262919261" type="Mouse">
-                    <param id="0" name="Object">Sprite</param>
-                </condition>
-                <condition behavior="DragDrop" id="3" name="Is enabled" sid="900198739011209" type="Sprite" />
-            </conditions>
-            <actions>
-                <action id="0" name="Set cursor style" sid="970075920728825" type="Mouse">
-                    <param id="0" name="Cursor style">4</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="838053055376242">
-            <conditions>
-                <condition id="-22" name="Else" sid="608829292679400" type="System" />
-            </conditions>
-            <actions>
-                <action id="0" name="Set cursor style" sid="782919630273846" type="Mouse">
-                    <param id="0" name="Cursor style">0</param>
-                </action>
-            </actions>
-        </event-block>
+        <event-group description="" sid="300550448224326" title="GroupObjek">
+            <sub-events>
+                <event-block sid="361201048670819">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="200503321157475" type="Sprite" />
+                        <condition id="1" name="Is overlapping another object" sid="724458259322226" type="Sprite">
+                            <param id="0" name="Object">Sprite2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="DragDrop" id="0" name="Set enabled" sid="173325170816418" type="Sprite">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-4" name="Set position to another object" sid="266204313842796" type="Sprite">
+                            <param id="0" name="Object">Sprite2</param>
+                            <param id="1" name="Image point (optional)">0</param>
+                        </action>
+                        <action id="0" name="Call function" sid="422123551729503" type="Function">
+                            <param id="0" name="Name">&quot;ShowPlacedText&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="403426884261476">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="763958262919261" type="Mouse">
+                            <param id="0" name="Object">Sprite</param>
+                        </condition>
+                        <condition behavior="DragDrop" id="3" name="Is enabled" sid="900198739011209" type="Sprite" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set cursor style" sid="970075920728825" type="Mouse">
+                            <param id="0" name="Cursor style">4</param>
+                        </action>
+                        <action id="0" name="Set text" sid="396583146114767" type="Text">
+                            <param id="0" name="Text">&quot;test&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="489736405504970">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="104993813572481" type="Sprite3" />
+                        <condition id="1" name="Is overlapping another object" sid="404369174801969" type="Sprite3">
+                            <param id="0" name="Object">Sprite4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="DragDrop" id="0" name="Set enabled" sid="930527790459443" type="Sprite3">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-4" name="Set position to another object" sid="123868133498404" type="Sprite3">
+                            <param id="0" name="Object">Sprite4</param>
+                            <param id="1" name="Image point (optional)">0</param>
+                        </action>
+                        <action id="0" name="Call function" sid="554573493062112" type="Function">
+                            <param id="0" name="Name">&quot;ShowPlacedText&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="870251877270364">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="183626968885988" type="Mouse">
+                            <param id="0" name="Object">Sprite3</param>
+                        </condition>
+                        <condition behavior="DragDrop" id="3" name="Is enabled" sid="237411530181209" type="Sprite3" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set cursor style" sid="233349304741997" type="Mouse">
+                            <param id="0" name="Cursor style">4</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="838053055376242">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="608829292679400" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set cursor style" sid="782919630273846" type="Mouse">
+                            <param id="0" name="Cursor style">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
         <event-block sid="952514237632046">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="413687351129700" type="System" />

@@ -92,6 +92,7 @@
                 </animation>
             </animation-folder>
         </object-type>
+<<<<<<< Updated upstream
         <object-type name="bum" sid="212796451008914">
             <plugin id="Sprite" />
             <behaviors>
@@ -113,6 +114,29 @@
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="458071157490937" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+=======
+        <object-type name="Sprite3" sid="835369575066217">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="BoundToLayout" sid="257444928168321">
+                    <behavior id="bound" />
+                </behavior-type>
+                <behavior-type name="DragDrop" sid="881114495729738">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="307325349086656" speed="5">
+                    <frame duration="1" hotspotX="0.502128" hotspotY="0.5" original-source="C:\Users\M Hardi R\Pictures\tatami0706.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite4" sid="216211871582762">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="879347627712257" speed="5">
+                    <frame duration="1" hotspotX="0.502128" hotspotY="0.5" original-source="C:\Users\M Hardi R\Pictures\tatami0706.png" />
+>>>>>>> Stashed changes
                 </animation>
             </animation-folder>
         </object-type>
