@@ -82,19 +82,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-<<<<<<< Updated upstream
-                        <x>656.387329102</x>
-                        <y>387.718719482</y>
-                        <z>0</z>
-                        <width>137.219665527</width>
-                        <height>165.237930298</height>
-=======
                         <x>676</x>
                         <y>148</y>
                         <z>0</z>
                         <width>111.200218201</width>
                         <height>133.758728027</height>
->>>>>>> Stashed changes
                         <depth>0</depth>
                         <hotspotX>0.501193345</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -118,7 +110,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>560</x>
-                        <y>55.039321899</y>
+                        <y>61</y>
                         <z>0</z>
                         <width>200</width>
                         <height>30</height>
@@ -129,42 +121,13 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< Updated upstream
-                <instance type="bum" uid="3">
-=======
                 <instance type="Sprite4" uid="6">
->>>>>>> Stashed changes
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
-<<<<<<< Updated upstream
-                    <behavior-instances>
-                        <behavior-instance type="DragDrop">
-                            <properties>
-                                <axes>Both</axes>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="BoundToLayout">
-                            <properties>
-                                <bound-by>Edge</bound-by>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>655.373718262</x>
-                        <y>189.333694458</y>
-                        <z>0</z>
-                        <width>141.214752197</width>
-                        <height>137.489227295</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-=======
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -175,35 +138,18 @@
                         <height>133.766891479</height>
                         <depth>0</depth>
                         <hotspotX>0.502127647</hotspotX>
->>>>>>> Stashed changes
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< Updated upstream
-                <instance type="Sprite3" uid="6">
-=======
                 <instance type="Sprite3" uid="3">
->>>>>>> Stashed changes
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
-<<<<<<< Updated upstream
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>219.859985352</x>
-                        <y>413.98223877</y>
-                        <z>0</z>
-                        <width>121.096969604</width>
-                        <height>126.312759399</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-=======
                     <behavior-instances>
                         <behavior-instance type="BoundToLayout">
                             <properties>
@@ -227,7 +173,6 @@
                         <height>108.636421204</height>
                         <depth>0</depth>
                         <hotspotX>0.502127647</hotspotX>
->>>>>>> Stashed changes
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
