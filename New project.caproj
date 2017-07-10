@@ -131,7 +131,10 @@
         <global-instance type="Mouse" uid="0" />
         <global-instance type="Function" uid="2" />
     </global-instances>
-    <sounds-folder />
+    <sounds-folder>
+        <file name="number-one.m4a" />
+        <file name="number-one.ogg" />
+    </sounds-folder>
     <music-folder />
     <files-folder>
         <file-folder name="Icons">
