@@ -10,6 +10,7 @@
     <unique-id>2idklzy56z0py</unique-id>
     <saved-with-version>24400</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Function" version="1">Function</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="NinePatch" version="1">9-patch</plugin>
@@ -55,6 +56,7 @@
             <instance-variables>
                 <instance-variable name="Variable1" sid="111209472959293" type="boolean" />
                 <instance-variable name="Variable2" sid="354840499643134" type="number" />
+                <instance-variable name="click_enable" sid="215563697725023" type="boolean" />
             </instance-variables>
             <behaviors>
                 <behavior-type name="DragDrop" sid="899925995858411">
@@ -119,17 +121,60 @@
         <object-type name="Text2" sid="786711030999070">
             <plugin id="Text" />
         </object-type>
+        <object-type name="Audio" sid="865928947461142">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="Sprite5" sid="208119346092789">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Variable1" sid="820696599597051" type="boolean" />
+                <instance-variable name="Variable2" sid="480858165661073" type="number" />
+                <instance-variable name="click_enable" sid="676117605356601" type="boolean" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="DragDrop" sid="549154228933080">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+                <behavior-type name="BoundToLayout" sid="498718181303965">
+                    <behavior id="bound" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="666098735926423" speed="5">
+                    <frame duration="1" hotspotX="0.501193" hotspotY="0.5" original-source="C:\Users\M Hardi R\Pictures\THelIOx.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text3" sid="948505421788207">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>Layout 1.xml</layout>
+        <layout>Layout 3.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>Event sheet 3.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="0" />
         <global-instance type="Function" uid="2" />
+        <global-instance type="Audio" uid="9">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
     </global-instances>
     <sounds-folder>
         <file name="number-one.m4a" />
