@@ -123,10 +123,6 @@
                 <action id="-15" name="Set visible" sid="369058509084511" type="Text">
                     <param id="0" name="Visibility">0</param>
                 </action>
-                <action id="-9" name="Set value" sid="933691736490034" type="System">
-                    <param id="0" name="Variable">PuzzleNumber</param>
-                    <param id="1" name="Value">1</param>
-                </action>
             </actions>
         </event-block>
         <event-block sid="416736776684574">
@@ -233,6 +229,9 @@
                 <action id="-9" name="Set value" sid="884068010156103" type="System">
                     <param id="0" name="Variable">PiecePlaced</param>
                     <param id="1" name="Value">0</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="457930032284076" type="System">
+                    <param id="0" name="Layout">Layout 2</param>
                 </action>
             </actions>
         </event-block>
