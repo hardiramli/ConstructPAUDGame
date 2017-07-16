@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 2</name>
+    <events>
+        <variable constant="0" name="PositionMenu" sid="642324911909871" static="0" type="number">0</variable>
+        <event-block sid="252809904134275">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="329065769556463" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="804483015956706" type="Function">
+                    <param id="0" name="Name">&quot;Menu1&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="355093945081137">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="629832500562124" type="System">
+                    <param id="0" name="Variable">PositionMenu</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="284967805730647" type="Function">
+                    <param id="0" name="Name">&quot;Menu3&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="515886727911122">
+            <conditions>
+                <condition id="0" name="On clicked" sid="977110783885073" type="Play" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="946436758122124" type="System">
+                    <param id="0" name="Variable">PositionMenu</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Call function" sid="797304308511473" type="Function">
+                    <param id="0" name="Name">&quot;Menu3&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="743973280713181">
+            <conditions>
+                <condition id="0" name="On clicked" sid="761971369717992" type="Option" />
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="323333368397417" type="Function">
+                    <param id="0" name="Name">&quot;Menu3&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="688204764648691">
+            <conditions>
+                <condition id="0" name="On clicked" sid="229487978467891" type="Back" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="691258149193866" type="System">
+                    <param id="0" name="Variable">PositionMenu</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="0" name="Call function" sid="990465905532590" type="Function">
+                    <param id="0" name="Name">&quot;Menu1&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="612035145306815">
+            <conditions>
+                <condition id="0" name="On function" sid="114747489473904" type="Function">
+                    <param id="0" name="Name">&quot;Menu1&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="2" name="Set visible" sid="671440899130942" type="Play">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="2" name="Set visible" sid="221911623932097" type="Option">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="2" name="Set visible" sid="501549420781179" type="Back">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="399700790843309" type="Sprite5">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="695796824493401" type="Sprite6">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="227625990560108" type="Sprite7">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="828300910376291">
+            <conditions>
+                <condition id="0" name="On function" sid="744285287273250" type="Function">
+                    <param id="0" name="Name">&quot;Menu2&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="2" name="Set visible" sid="346436037176243" type="Play">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="2" name="Set visible" sid="793151162122761" type="Option">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="2" name="Set visible" sid="161566744460692" type="Back">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="926813342765869" type="Sprite5">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="716899519268372" type="Sprite6">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="753489844230126" type="Sprite7">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="975571473692779">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="685876610412899" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Sprite5</param>
+                </condition>
+                <condition id="-9" name="Is visible" sid="162188135285239" type="Sprite5" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="697434641848141" type="System">
+                    <param id="0" name="Variable">PuzzleNumber</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="326110547818801" type="System">
+                    <param id="0" name="Variable">PositionMenu</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-25" name="Go to layout (by name)" sid="194871757511051" type="System">
+                    <param id="0" name="Layout">&quot;Layout 1&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="918153850476539">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="456441372521480" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Sprite6</param>
+                </condition>
+                <condition id="-9" name="Is visible" sid="867992831907058" type="Sprite6" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="578809988126395" type="System">
+                    <param id="0" name="Variable">PuzzleNumber</param>
+                    <param id="1" name="Value">2</param>
+                </action>
+                <action id="-9" name="Set value" sid="794012292440911" type="System">
+                    <param id="0" name="Variable">PositionMenu</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-25" name="Go to layout (by name)" sid="962732155400786" type="System">
+                    <param id="0" name="Layout">&quot;Layout 1&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="453668677952655">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="558920429531919" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Sprite7</param>
+                </condition>
+                <condition id="-9" name="Is visible" sid="624206421514551" type="Sprite7" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="995836780366340" type="System">
+                    <param id="0" name="Variable">PuzzleNumber</param>
+                    <param id="1" name="Value">3</param>
+                </action>
+                <action id="-9" name="Set value" sid="117890337605767" type="System">
+                    <param id="0" name="Variable">PositionMenu</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-25" name="Go to layout (by name)" sid="856602656461350" type="System">
+                    <param id="0" name="Layout">&quot;Layout 1&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="358290340479529">
+            <conditions>
+                <condition id="0" name="On function" sid="302407656651879" type="Function">
+                    <param id="0" name="Name">&quot;Menu3&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="2" name="Set visible" sid="221422605680735" type="Play">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="2" name="Set visible" sid="240297460525352" type="Option">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="2" name="Set visible" sid="487583769107733" type="Back">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="729608798248742" type="Sprite5">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="731648588443065" type="Sprite6">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="152154845255882" type="Sprite7">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
