@@ -123,7 +123,7 @@
                 <action id="-15" name="Set visible" sid="369058509084511" type="Text">
                     <param id="0" name="Visibility">0</param>
                 </action>
-                <action id="-10" name="Add to" sid="797920491780059" type="System">
+                <action id="-9" name="Set value" sid="933691736490034" type="System">
                     <param id="0" name="Variable">PuzzleNumber</param>
                     <param id="1" name="Value">1</param>
                 </action>
@@ -165,28 +165,6 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-12" name="Set group active" sid="629690120176861" type="System">
-                    <param id="0" name="Group name">&quot;GroupObjek&quot;</param>
-                    <param id="1" name="State">0</param>
-                </action>
-                <action id="-15" name="Set visible" sid="261735257198052" type="Sprite">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="-15" name="Set visible" sid="604029618673431" type="Sprite3">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="-15" name="Set visible" sid="805992221438112" type="Sprite2">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="-15" name="Set visible" sid="499121320872711" type="Sprite4">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action behavior="DragDrop" id="0" name="Set enabled" sid="969602287128473" type="Sprite">
-                    <param id="0" name="State">0</param>
-                </action>
-                <action behavior="DragDrop" id="0" name="Set enabled" sid="879744406597052" type="Sprite3">
-                    <param id="0" name="State">0</param>
-                </action>
                 <action id="0" name="Set text" sid="201829311056454" type="Text2">
                     <param id="0" name="Text">&quot;ini Level 2&quot;</param>
                 </action>
@@ -256,12 +234,8 @@
                     <param id="0" name="Variable">PiecePlaced</param>
                     <param id="1" name="Value">0</param>
                 </action>
-                <action id="-10" name="Add to" sid="940921469757889" type="System">
-                    <param id="0" name="Variable">PuzzleNumber</param>
-                    <param id="1" name="Value">1</param>
-                </action>
             </actions>
         </event-block>
-        <comment>Dibawah PiecePlaced to 0 ganti ke puzzle nomor sekian</comment>
+        <comment>Dibawah PiecePlaced to 0 ganti ke layout menu buat milih lagi</comment>
     </events>
 </c2eventsheet>
