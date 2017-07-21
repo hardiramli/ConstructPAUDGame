@@ -10,9 +10,36 @@
                 <condition id="-2" name="On start of layout" sid="529976592379554" type="System" />
             </conditions>
             <actions>
+                <action id="-15" name="Set visible" sid="507627424596372" type="Sprite">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="925131759474641" type="Sprite5">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="458106373012172" type="Sprite6">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="2" name="Set visible" sid="765271494645984" type="Button">
+                    <param id="0" name="Visibility">0</param>
+                </action>
                 <action id="-10" name="Add to" sid="111965392752969" type="System">
                     <param id="0" name="Variable">Stage</param>
                     <param id="1" name="Value">1</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="749551963369486" type="Sprite">
+                    <param id="0" name="Instance variable">click_enable</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="994015977540312" type="Sprite5">
+                    <param id="0" name="Instance variable">click_enable</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="788469600571675" type="Sprite6">
+                    <param id="0" name="Instance variable">click_enable</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="3" name="Set enabled" sid="474599230143804" type="Button">
+                    <param id="0" name="Mode">0</param>
                 </action>
             </actions>
         </event-block>
@@ -60,6 +87,28 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="972179014256254">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="153568740733722" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Sprite6</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="141895806146156" type="Sprite6">
+                    <param id="0" name="Instance variable">click_enable</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="579325599651653" type="System">
+                    <param id="0" name="Variable">Counter</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="436399296494605" type="Sprite6">
+                    <param id="0" name="Instance variable">click_enable</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
         <event-block sid="419370253562013">
             <conditions>
                 <condition id="-14" name="Compare variable" sid="742518121655229" type="System">
@@ -88,6 +137,31 @@
                 <action id="-15" name="Set visible" sid="593218535507495" type="Text3">
                     <param id="0" name="Visibility">0</param>
                 </action>
+                <action id="-15" name="Set visible" sid="322803925253637" type="Sprite">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="402213229304912" type="Sprite5">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="512516696636468" type="Sprite6">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="2" name="Set visible" sid="330385132952372" type="Button">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="3" name="Set enabled" sid="424649984260446" type="Button">
+                    <param id="0" name="Mode">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="397973409753423" type="System">
+                    <param id="0" name="Seconds">2.0</param>
+                </action>
+                <action id="2" name="Set visible" sid="188875663208077" type="Button">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="248833711035621" type="System">
+                    <param id="0" name="Variable">Counter</param>
+                    <param id="1" name="Value">0</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="479159417299090">
@@ -103,7 +177,7 @@
                 <action id="0" name="Play" sid="435347757429256" type="Audio">
                     <param id="0" name="Audio file">number-one</param>
                     <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">-10</param>
+                    <param id="3" name="Volume">-2</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
                 <action id="0" name="Set text" sid="596984597411746" type="Text3">
@@ -117,6 +191,123 @@
                 </action>
                 <action id="-15" name="Set visible" sid="219276007879777" type="Text3">
                     <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="413700736097220" type="Sprite">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="497110725479732" type="Sprite5">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="431774231986864" type="Sprite6">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="2" name="Set visible" sid="636764756484144" type="Button">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="3" name="Set enabled" sid="942452712124928" type="Button">
+                    <param id="0" name="Mode">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="514926416043603" type="System">
+                    <param id="0" name="Seconds">2.0</param>
+                </action>
+                <action id="2" name="Set visible" sid="811327248034054" type="Button">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="179267880381443" type="System">
+                    <param id="0" name="Variable">Counter</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="231521526164679">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="461485072427732" type="System">
+                    <param id="0" name="Variable">Counter</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">3</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="667890042403775" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="865943362721599" type="Audio">
+                    <param id="0" name="Audio file">number-one</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">-3</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="913356542292730" type="Text3">
+                    <param id="0" name="Text">&quot;3&quot;</param>
+                </action>
+                <action id="-15" name="Set visible" sid="999924691849146" type="Text3">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="447644446787736" type="System">
+                    <param id="0" name="Seconds">2.0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="270262993236541" type="Text3">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="312715821183101">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="343798151605279" type="System">
+                    <param id="0" name="Variable">Stage</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="568064436762499" type="System" />
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="824708512582031" type="Sprite">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="728753243430293" type="Sprite">
+                    <param id="0" name="Instance variable">click_enable</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="239621012053463">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="370955704778371" type="System">
+                    <param id="0" name="Variable">Stage</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="869787432005851" type="System" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="412952224946287" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="791164698401885" type="Sprite">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="500547804755787" type="Sprite5">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="857534052875122" type="Sprite">
+                    <param id="0" name="Instance variable">click_enable</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="286740639841700" type="Sprite5">
+                    <param id="0" name="Instance variable">click_enable</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="175777549376450">
+            <conditions>
+                <condition id="0" name="On clicked" sid="540451055011721" type="Button" />
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="483689972958536" type="System">
+                    <param id="0" name="Variable">Stage</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="3" name="Set enabled" sid="548697809974470" type="Button">
+                    <param id="0" name="Mode">0</param>
                 </action>
             </actions>
         </event-block>
