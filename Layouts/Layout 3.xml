@@ -39,7 +39,7 @@
                     <instance-variables>
                         <Variable1>false</Variable1>
                         <Variable2>0</Variable2>
-                        <click_enable>true</click_enable>
+                        <click_enable>false</click_enable>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="DragDrop">
@@ -63,7 +63,7 @@
                         <width>111.200218201</width>
                         <height>133.758728027</height>
                         <depth>0</depth>
-                        <hotspotX>0.501192987</hotspotX>
+                        <hotspotX>0.501193345</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
@@ -170,6 +170,60 @@
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
+                    </world>
+                </instance>
+                <instance type="Sprite8" uid="22">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <Variable1>0</Variable1>
+                        <Variable2>0</Variable2>
+                        <click_enable>false</click_enable>
+                    </instance-variables>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>208.00239563</x>
+                        <y>384.5</y>
+                        <z>0</z>
+                        <width>81</width>
+                        <height>89</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501193345</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite9" uid="23">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <Variable1>0</Variable1>
+                        <Variable2>0</Variable2>
+                        <click_enable>false</click_enable>
+                    </instance-variables>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>565.976135254</x>
+                        <y>367.5</y>
+                        <z>0</z>
+                        <width>92</width>
+                        <height>118</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501193345</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
                     </world>
                 </instance>
             </instances>
