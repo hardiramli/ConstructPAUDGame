@@ -9,17 +9,17 @@
             <sub-events>
                 <event-block sid="361201048670819">
                     <conditions>
-                        <condition behavior="DragDrop" id="2" name="On drop" sid="200503321157475" type="Sprite" />
-                        <condition id="1" name="Is overlapping another object" sid="724458259322226" type="Sprite">
-                            <param id="0" name="Object">Sprite2</param>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="200503321157475" type="car1" />
+                        <condition id="1" name="Is overlapping another object" sid="724458259322226" type="car1">
+                            <param id="0" name="Object">shcar1</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action behavior="DragDrop" id="0" name="Set enabled" sid="173325170816418" type="Sprite">
+                        <action behavior="DragDrop" id="0" name="Set enabled" sid="173325170816418" type="car1">
                             <param id="0" name="State">0</param>
                         </action>
-                        <action id="-4" name="Set position to another object" sid="266204313842796" type="Sprite">
-                            <param id="0" name="Object">Sprite2</param>
+                        <action id="-4" name="Set position to another object" sid="266204313842796" type="car1">
+                            <param id="0" name="Object">shcar1</param>
                             <param id="1" name="Image point (optional)">0</param>
                         </action>
                         <action id="0" name="Call function" sid="422123551729503" type="Function">
@@ -31,9 +31,9 @@
                 <event-block sid="872819254381896">
                     <conditions>
                         <condition id="7" name="Cursor is over object" sid="599615849972098" type="Mouse">
-                            <param id="0" name="Object">Sprite</param>
+                            <param id="0" name="Object">car1</param>
                         </condition>
-                        <condition behavior="DragDrop" id="3" name="Is enabled" sid="420366562878545" type="Sprite" />
+                        <condition behavior="DragDrop" id="3" name="Is enabled" sid="420366562878545" type="car1" />
                     </conditions>
                     <actions>
                         <action id="0" name="Set cursor style" sid="584925312926486" type="Mouse">
@@ -53,17 +53,17 @@
                 </event-block>
                 <event-block sid="489736405504970">
                     <conditions>
-                        <condition behavior="DragDrop" id="2" name="On drop" sid="104993813572481" type="Sprite3" />
-                        <condition id="1" name="Is overlapping another object" sid="404369174801969" type="Sprite3">
-                            <param id="0" name="Object">Sprite4</param>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="104993813572481" type="car2" />
+                        <condition id="1" name="Is overlapping another object" sid="404369174801969" type="car2">
+                            <param id="0" name="Object">shcar2</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action behavior="DragDrop" id="0" name="Set enabled" sid="930527790459443" type="Sprite3">
+                        <action behavior="DragDrop" id="0" name="Set enabled" sid="930527790459443" type="car2">
                             <param id="0" name="State">0</param>
                         </action>
-                        <action id="-4" name="Set position to another object" sid="123868133498404" type="Sprite3">
-                            <param id="0" name="Object">Sprite4</param>
+                        <action id="-4" name="Set position to another object" sid="123868133498404" type="car2">
+                            <param id="0" name="Object">shcar2</param>
                             <param id="1" name="Image point (optional)">0</param>
                         </action>
                         <action id="0" name="Call function" sid="554573493062112" type="Function">
@@ -75,12 +75,46 @@
                 <event-block sid="870251877270364">
                     <conditions>
                         <condition id="7" name="Cursor is over object" sid="183626968885988" type="Mouse">
-                            <param id="0" name="Object">Sprite3</param>
+                            <param id="0" name="Object">car2</param>
                         </condition>
-                        <condition behavior="DragDrop" id="3" name="Is enabled" sid="237411530181209" type="Sprite3" />
+                        <condition behavior="DragDrop" id="3" name="Is enabled" sid="237411530181209" type="car2" />
                     </conditions>
                     <actions>
                         <action id="0" name="Set cursor style" sid="233349304741997" type="Mouse">
+                            <param id="0" name="Cursor style">4</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="639598953550151">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="664607113114868" type="car3" />
+                        <condition id="1" name="Is overlapping another object" sid="326250769713035" type="car3">
+                            <param id="0" name="Object">shcar3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="DragDrop" id="0" name="Set enabled" sid="172085579286338" type="car3">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-4" name="Set position to another object" sid="909785876650527" type="car3">
+                            <param id="0" name="Object">shcar3</param>
+                            <param id="1" name="Image point (optional)">0</param>
+                        </action>
+                        <action id="0" name="Call function" sid="143911750217336" type="Function">
+                            <param id="0" name="Name">&quot;ShowPlacedText&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="135668525147218">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="936134642086999" type="Mouse">
+                            <param id="0" name="Object">car3</param>
+                        </condition>
+                        <condition behavior="DragDrop" id="3" name="Is enabled" sid="616954837079769" type="car3" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set cursor style" sid="987845630904979" type="Mouse">
                             <param id="0" name="Cursor style">4</param>
                         </action>
                     </actions>
@@ -99,16 +133,22 @@
                     <param id="0" name="Group name">&quot;GroupObjek&quot;</param>
                     <param id="1" name="State">0</param>
                 </action>
-                <action id="-15" name="Set visible" sid="346604735228600" type="Sprite">
+                <action id="-15" name="Set visible" sid="346604735228600" type="car1">
                     <param id="0" name="Visibility">0</param>
                 </action>
-                <action id="-15" name="Set visible" sid="219084193314454" type="Sprite3">
+                <action id="-15" name="Set visible" sid="219084193314454" type="car2">
                     <param id="0" name="Visibility">0</param>
                 </action>
-                <action behavior="DragDrop" id="0" name="Set enabled" sid="505454522664301" type="Sprite">
+                <action id="-15" name="Set visible" sid="778485811670491" type="car3">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="505454522664301" type="car1">
                     <param id="0" name="State">0</param>
                 </action>
-                <action behavior="DragDrop" id="0" name="Set enabled" sid="291829702328004" type="Sprite3">
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="291829702328004" type="car2">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="916132780889727" type="car3">
                     <param id="0" name="State">0</param>
                 </action>
                 <action id="0" name="Set text" sid="902214646231354" type="Text">
@@ -138,16 +178,22 @@
                     <param id="0" name="Group name">&quot;GroupObjek&quot;</param>
                     <param id="1" name="State">1</param>
                 </action>
-                <action id="-15" name="Set visible" sid="867474992087875" type="Sprite">
+                <action id="-15" name="Set visible" sid="867474992087875" type="car1">
                     <param id="0" name="Visibility">1</param>
                 </action>
-                <action id="-15" name="Set visible" sid="206609844156876" type="Sprite3">
+                <action id="-15" name="Set visible" sid="206609844156876" type="car2">
                     <param id="0" name="Visibility">1</param>
                 </action>
-                <action behavior="DragDrop" id="0" name="Set enabled" sid="205790089141981" type="Sprite">
+                <action id="-15" name="Set visible" sid="918421271534094" type="car3">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="205790089141981" type="car1">
                     <param id="0" name="State">1</param>
                 </action>
-                <action behavior="DragDrop" id="0" name="Set enabled" sid="894370657503096" type="Sprite3">
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="894370657503096" type="car2">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="670292991807250" type="car3">
                     <param id="0" name="State">1</param>
                 </action>
             </actions>
@@ -205,12 +251,7 @@
                 <condition id="-14" name="Compare variable" sid="872824917925349" type="System">
                     <param id="0" name="Variable">PiecePlaced</param>
                     <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">2</param>
-                </condition>
-                <condition id="-14" name="Compare variable" sid="818383489746949" type="System">
-                    <param id="0" name="Variable">PuzzleNumber</param>
-                    <param id="1" name="Comparison">3</param>
-                    <param id="2" name="Value">1</param>
+                    <param id="2" name="Value">3</param>
                 </condition>
             </conditions>
             <actions>
