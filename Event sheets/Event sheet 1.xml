@@ -13,6 +13,7 @@
                         <condition id="1" name="Is overlapping another object" sid="724458259322226" type="car1">
                             <param id="0" name="Object">shcar1</param>
                         </condition>
+                        <condition id="-9" name="Is visible" sid="907242565943848" type="shcar1" />
                     </conditions>
                     <actions>
                         <action behavior="DragDrop" id="0" name="Set enabled" sid="173325170816418" type="car1">
@@ -57,6 +58,7 @@
                         <condition id="1" name="Is overlapping another object" sid="404369174801969" type="car2">
                             <param id="0" name="Object">shcar2</param>
                         </condition>
+                        <condition id="-9" name="Is visible" sid="655978284344491" type="shcar2" />
                     </conditions>
                     <actions>
                         <action behavior="DragDrop" id="0" name="Set enabled" sid="930527790459443" type="car2">
@@ -91,6 +93,7 @@
                         <condition id="1" name="Is overlapping another object" sid="326250769713035" type="car3">
                             <param id="0" name="Object">shcar3</param>
                         </condition>
+                        <condition id="-9" name="Is visible" sid="915021313616706" type="shcar3" />
                     </conditions>
                     <actions>
                         <action behavior="DragDrop" id="0" name="Set enabled" sid="172085579286338" type="car3">
