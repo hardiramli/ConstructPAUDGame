@@ -120,14 +120,14 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="794845757760132" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.501511" original-source="C:\Users\M Hardi R\Videos\paud construct\car1.png">
                         <collision-poly>
-                            <point x="0.438461" y="0.407855" />
-                            <point x="0.603847" y="0.111782" />
-                            <point x="0.788462" y="0.111782" />
-                            <point x="0.788462" y="0.58006" />
-                            <point x="0.95" y="0.803626" />
-                            <point x="0.65" y="0.987915" />
-                            <point x="0.0653846" y="0.818731" />
-                            <point x="0.111538" y="0.480363" />
+                            <point x="0.457692" y="0.413897" />
+                            <point x="0.596155" y="0.108761" />
+                            <point x="0.78077" y="0.114804" />
+                            <point x="0.769231" y="0.586102" />
+                            <point x="0.926922" y="0.803626" />
+                            <point x="0.630769" y="0.975831" />
+                            <point x="0.0576924" y="0.830816" />
+                            <point x="0.123077" y="0.477342" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -147,12 +147,12 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="891614426387519" speed="5">
                     <frame duration="1" hotspotX="0.502674" hotspotY="0.501511" original-source="C:\Users\M Hardi R\Videos\paud construct\car2.png">
                         <collision-poly>
-                            <point x="0.106952" y="0.117825" />
-                            <point x="0.909091" y="0.120846" />
-                            <point x="0.903743" y="0.498489" />
-                            <point x="0.898396" y="0.806647" />
-                            <point x="0.326203" y="0.81571" />
-                            <point x="0.101604" y="0.592144" />
+                            <point x="0.101604" y="0.10574" />
+                            <point x="0.903743" y="0.108761" />
+                            <point x="0.903744" y="0.447129" />
+                            <point x="0.903744" y="0.812689" />
+                            <point x="0.331551" y="0.812689" />
+                            <point x="0.101604" y="0.595165" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -172,14 +172,14 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="268258352215843" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.501661" original-source="C:\Users\M Hardi R\Videos\paud construct\car3.png">
                         <collision-poly>
-                            <point x="0.0480769" y="0.0332226" />
-                            <point x="0.264423" y="0.0398671" />
-                            <point x="0.495192" y="0.365449" />
-                            <point x="0.894231" y="0.385382" />
-                            <point x="0.951924" y="0.840532" />
-                            <point x="0.298077" y="0.996678" />
-                            <point x="0.0336538" y="0.807309" />
-                            <point x="0.0384615" y="0.498339" />
+                            <point x="0.0384615" y="0.0431897" />
+                            <point x="0.269231" y="0.0431896" />
+                            <point x="0.475962" y="0.365449" />
+                            <point x="0.913462" y="0.398671" />
+                            <point x="0.947116" y="0.847177" />
+                            <point x="0.629808" y="0.833888" />
+                            <point x="0.384615" y="0.996678" />
+                            <point x="0.0384615" y="0.813953" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -191,14 +191,14 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="310964494624327" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.501511" original-source="C:\Users\M Hardi R\Videos\paud construct\car1s.png">
                         <collision-poly>
-                            <point x="0.438461" y="0.401813" />
-                            <point x="0.603847" y="0.0936556" />
-                            <point x="0.780769" y="0.10574" />
-                            <point x="0.780769" y="0.577039" />
-                            <point x="0.946154" y="0.809668" />
-                            <point x="0.65" y="0.987916" />
-                            <point x="0.0384615" y="0.824773" />
-                            <point x="0.103846" y="0.47432" />
+                            <point x="0.430769" y="0.510574" />
+                            <point x="0.576924" y="0.495468" />
+                            <point x="0.626922" y="0.549849" />
+                            <point x="0.66923" y="0.640483" />
+                            <point x="0.61923" y="0.716013" />
+                            <point x="0.507692" y="0.73414" />
+                            <point x="0.353846" y="0.691843" />
+                            <point x="0.246154" y="0.598188" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -210,12 +210,12 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="218084078194182" speed="5">
                     <frame duration="1" hotspotX="0.502674" hotspotY="0.501511" original-source="C:\Users\M Hardi R\Videos\paud construct\car2s.png">
                         <collision-poly>
-                            <point x="0.0855615" y="0.0996979" />
-                            <point x="0.893048" y="0.108761" />
-                            <point x="0.903743" y="0.498489" />
-                            <point x="0.903743" y="0.81571" />
-                            <point x="0.326203" y="0.81571" />
-                            <point x="0.0802139" y="0.592145" />
+                            <point x="0.363636" y="0.350453" />
+                            <point x="0.663101" y="0.344411" />
+                            <point x="0.743315" y="0.477341" />
+                            <point x="0.652406" y="0.592146" />
+                            <point x="0.401069" y="0.592146" />
+                            <point x="0.26738" y="0.459215" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -227,14 +227,14 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="148831926707516" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.501661" original-source="C:\Users\M Hardi R\Videos\paud construct\car3s.png">
                         <collision-poly>
-                            <point x="0.0480769" y="0.0332226" />
-                            <point x="0.269231" y="0.0332226" />
-                            <point x="0.509616" y="0.378738" />
-                            <point x="0.918269" y="0.395348" />
-                            <point x="0.961539" y="0.847176" />
-                            <point x="0.336539" y="1" />
-                            <point x="0.0336538" y="0.813954" />
-                            <point x="0.0384615" y="0.498339" />
+                            <point x="0.225962" y="0.478405" />
+                            <point x="0.389423" y="0.438538" />
+                            <point x="0.552885" y="0.445183" />
+                            <point x="0.725961" y="0.521594" />
+                            <point x="0.706731" y="0.677741" />
+                            <point x="0.519231" y="0.727575" />
+                            <point x="0.322115" y="0.664452" />
+                            <point x="0.230769" y="0.564784" />
                         </collision-poly>
                     </frame>
                 </animation>
