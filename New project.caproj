@@ -108,6 +108,9 @@
         </object-type>
         <object-type name="car1" sid="125922751773740">
             <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="movable" sid="167160315692879" type="boolean" />
+            </instance-variables>
             <behaviors>
                 <behavior-type name="DragDrop" sid="285584309380115">
                     <behavior id="DragnDrop" />
@@ -135,6 +138,9 @@
         </object-type>
         <object-type name="car2" sid="413081051975481">
             <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="movable" sid="603689974800586" type="boolean" />
+            </instance-variables>
             <behaviors>
                 <behavior-type name="DragDrop" sid="295656987289634">
                     <behavior id="DragnDrop" />
@@ -160,6 +166,9 @@
         </object-type>
         <object-type name="car3" sid="368123316118962">
             <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="movable" sid="505034424598442" type="boolean" />
+            </instance-variables>
             <behaviors>
                 <behavior-type name="DragDrop" sid="504376785944365">
                     <behavior id="DragnDrop" />
@@ -293,6 +302,315 @@
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="477692324889138" speed="5">
                     <frame duration="1" hotspotX="0.501193" hotspotY="0.5" original-source="C:\Users\tegar\Pictures\xmlxsdvalid.JPG" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="car4" sid="774401471995629">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="movable" sid="383090231106512" type="boolean" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="DragDrop" sid="301183294054752">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+                <behavior-type name="BoundToLayout" sid="750099160467233">
+                    <behavior id="bound" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="141327921588690" speed="5">
+                    <frame duration="1" hotspotX="0.502564" hotspotY="0.501493" original-source="C:\Users\M Hardi R\Videos\paud construct\car4.png">
+                        <collision-poly>
+                            <point x="0.123077" y="0.179104" />
+                            <point x="0.497436" y="0" />
+                            <point x="0.974359" y="0.0865672" />
+                            <point x="0.974359" y="0.564179" />
+                            <point x="0.369231" y="0.579105" />
+                            <point x="0.328205" y="0.820895" />
+                            <point x="0.0461539" y="0.820896" />
+                            <point x="0.0358974" y="0.498507" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="shcar4" sid="749297393755994">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="370254395831260" speed="5">
+                    <frame duration="1" hotspotX="0.502564" hotspotY="0.501493" original-source="C:\Users\M Hardi R\Videos\paud construct\car4s.png">
+                        <collision-poly>
+                            <point x="0.389744" y="0.244776" />
+                            <point x="0.605128" y="0.226866" />
+                            <point x="0.692308" y="0.331343" />
+                            <point x="0.723077" y="0.4" />
+                            <point x="0.610256" y="0.453732" />
+                            <point x="0.502564" y="0.435821" />
+                            <point x="0.384615" y="0.40597" />
+                            <point x="0.348718" y="0.313434" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="shcar5" sid="370797649802495">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="509881578839084" speed="5">
+                    <frame duration="1" hotspotX="0.502262" hotspotY="0.5" original-source="C:\Users\M Hardi R\Videos\paud construct\car5s.png">
+                        <collision-poly>
+                            <point x="0.701357" y="0.49359" />
+                            <point x="0.782805" y="0.423077" />
+                            <point x="0.850679" y="0.490385" />
+                            <point x="0.882353" y="0.599359" />
+                            <point x="0.782805" y="0.708334" />
+                            <point x="0.380091" y="0.701923" />
+                            <point x="0.651584" y="0.621795" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="shcar6" sid="363364316504778">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="693352196696627" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Hardi R\Videos\paud construct\car6s.png">
+                        <collision-poly>
+                            <point x="0.388889" y="0.251592" />
+                            <point x="0.511111" y="0.289809" />
+                            <point x="0.648148" y="0.375796" />
+                            <point x="0.622222" y="0.512739" />
+                            <point x="0.511111" y="0.563694" />
+                            <point x="0.385185" y="0.535032" />
+                            <point x="0.285185" y="0.410828" />
+                            <point x="0.322222" y="0.324841" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="car6" sid="895213964542220">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="movable" sid="852124522455707" type="boolean" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="DragDrop" sid="638132818938090">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+                <behavior-type name="BoundToLayout" sid="239059052848929">
+                    <behavior id="bound" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="884107383575411" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Hardi R\Videos\paud construct\car6.png">
+                        <collision-poly>
+                            <point x="0.0222222" y="0.0191083" />
+                            <point x="0.5" y="0.0191083" />
+                            <point x="0.933333" y="0.0573248" />
+                            <point x="0.966667" y="0.789809" />
+                            <point x="0.766667" y="0.824841" />
+                            <point x="0.5" y="0.993631" />
+                            <point x="0.0222222" y="0.818471" />
+                            <point x="0.0185185" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="car5" sid="218873034243092">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="movable" sid="324326215998404" type="boolean" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="BoundToLayout" sid="172516400838943">
+                    <behavior id="bound" />
+                </behavior-type>
+                <behavior-type name="DragDrop" sid="498197482097885">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="321326050760684" speed="5">
+                    <frame duration="1" hotspotX="0.502262" hotspotY="0.5" original-source="C:\Users\M Hardi R\Videos\paud construct\car5.png">
+                        <collision-poly>
+                            <point x="0.574661" y="0.554487" />
+                            <point x="0.579186" y="0.0416666" />
+                            <point x="0.972851" y="0.0192308" />
+                            <point x="0.99095" y="0.820513" />
+                            <point x="0.230769" y="0.990384" />
+                            <point x="0" y="0.830128" />
+                            <point x="0.0588236" y="0.570513" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite4" sid="689098175812700">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="161689113171075" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Hardi R\Videos\paud construct\car6.png">
+                        <collision-poly>
+                            <point x="0.0222222" y="0.0191083" />
+                            <point x="0.5" y="0.0191083" />
+                            <point x="0.933333" y="0.0573248" />
+                            <point x="0.966667" y="0.789809" />
+                            <point x="0.766667" y="0.824841" />
+                            <point x="0.5" y="0.993631" />
+                            <point x="0.0222222" y="0.818471" />
+                            <point x="0.0185185" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="car7" sid="347517508374222">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="movable" sid="408552354451428" type="boolean" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="BoundToLayout" sid="504519749613212">
+                    <behavior id="bound" />
+                </behavior-type>
+                <behavior-type name="DragDrop" sid="753065428741745">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="524929723403064" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502591" original-source="C:\Users\M Hardi R\Videos\paud construct\car7.png">
+                        <collision-poly>
+                            <point x="0.15625" y="0.19171" />
+                            <point x="0.5" y="0.19171" />
+                            <point x="0.679688" y="0.243523" />
+                            <point x="0.804688" y="0.497409" />
+                            <point x="0.757813" y="0.839378" />
+                            <point x="0.304688" y="0.740933" />
+                            <point x="0.15625" y="0.502591" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="car8" sid="858369475541205">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="movable" sid="292167899529526" type="boolean" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="BoundToLayout" sid="774546219612922">
+                    <behavior id="bound" />
+                </behavior-type>
+                <behavior-type name="DragDrop" sid="967234423269203">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="197011368096031" speed="5">
+                    <frame duration="1" hotspotX="0.501873" hotspotY="0.5" original-source="C:\Users\M Hardi R\Videos\paud construct\car8.png">
+                        <collision-poly>
+                            <point x="0.337079" y="0.390244" />
+                            <point x="0.602996" y="0.317073" />
+                            <point x="0.883895" y="0.284553" />
+                            <point x="0.857678" y="0.5" />
+                            <point x="0.76779" y="0.747967" />
+                            <point x="0.277154" y="0.902439" />
+                            <point x="0.0711611" y="0.695122" />
+                            <point x="0.131086" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="car9" sid="662720381009781">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="movable" sid="697809618101363" type="boolean" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="BoundToLayout" sid="551407708398841">
+                    <behavior id="bound" />
+                </behavior-type>
+                <behavior-type name="DragDrop" sid="388968207732369">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="705708641089561" speed="5">
+                    <frame duration="1" hotspotX="0.502703" hotspotY="0.502857" original-source="C:\Users\M Hardi R\Videos\paud construct\car9.png">
+                        <collision-poly>
+                            <point x="0.189189" y="0.0971429" />
+                            <point x="0.497297" y="0.0914286" />
+                            <point x="0.832432" y="0.102857" />
+                            <point x="0.924324" y="0.497143" />
+                            <point x="0.935136" y="0.714286" />
+                            <point x="0.475676" y="1" />
+                            <point x="0.0486486" y="0.72" />
+                            <point x="0.0756757" y="0.497143" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="shcar7" sid="538482824684760">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="830690616313366" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502591" original-source="C:\Users\M Hardi R\Videos\paud construct\car7s.png">
+                        <collision-poly>
+                            <point x="0.445313" y="0.362694" />
+                            <point x="0.648438" y="0.414508" />
+                            <point x="0.710938" y="0.626943" />
+                            <point x="0.648438" y="0.73057" />
+                            <point x="0.492188" y="0.606217" />
+                            <point x="0.34375" y="0.523316" />
+                            <point x="0.320313" y="0.424871" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="shcar8" sid="448136161116528">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="548150861940233" speed="5">
+                    <frame duration="1" hotspotX="0.501873" hotspotY="0.5" original-source="C:\Users\M Hardi R\Videos\paud construct\car8s.png">
+                        <collision-poly>
+                            <point x="0.378277" y="0.439024" />
+                            <point x="0.498127" y="0.45935" />
+                            <point x="0.588015" y="0.53252" />
+                            <point x="0.677903" y="0.613821" />
+                            <point x="0.659176" y="0.678862" />
+                            <point x="0.543071" y="0.715447" />
+                            <point x="0.445693" y="0.666667" />
+                            <point x="0.35206" y="0.569106" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="shcar9" sid="548879636938337">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="792726462997111" speed="5">
+                    <frame duration="1" hotspotX="0.502703" hotspotY="0.502857" original-source="C:\Users\M Hardi R\Videos\paud construct\car9s.png">
+                        <collision-poly>
+                            <point x="0.4" y="0.331429" />
+                            <point x="0.583784" y="0.382857" />
+                            <point x="0.735135" y="0.445714" />
+                            <point x="0.724324" y="0.582857" />
+                            <point x="0.6" y="0.674286" />
+                            <point x="0.454054" y="0.68" />
+                            <point x="0.340541" y="0.594285" />
+                            <point x="0.389189" y="0.525714" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>

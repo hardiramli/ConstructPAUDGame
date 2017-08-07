@@ -27,6 +27,10 @@
                             <param id="0" name="Name">&quot;ShowPlacedText&quot;</param>
                             <param id="1" name="Parameter {n}"></param>
                         </action>
+                        <action id="-13" name="Set boolean" sid="355381442744961" type="car1">
+                            <param id="0" name="Instance variable">movable</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="872819254381896">
@@ -72,6 +76,10 @@
                             <param id="0" name="Name">&quot;ShowPlacedText&quot;</param>
                             <param id="1" name="Parameter {n}"></param>
                         </action>
+                        <action id="-13" name="Set boolean" sid="430919898132812" type="car2">
+                            <param id="0" name="Instance variable">movable</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="870251877270364">
@@ -107,6 +115,10 @@
                             <param id="0" name="Name">&quot;ShowPlacedText&quot;</param>
                             <param id="1" name="Parameter {n}"></param>
                         </action>
+                        <action id="-13" name="Set boolean" sid="945360628912565" type="car3">
+                            <param id="0" name="Instance variable">movable</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="135668525147218">
@@ -122,6 +134,412 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="373986461934001">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="126143945410888" type="car1" />
+                        <condition id="-8" name="Is boolean instance variable set" sid="605722457433865" type="car1">
+                            <param id="0" name="Instance variable">movable</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="785209845080279" type="car1">
+                            <param id="0" name="X">129</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="131230212364272" type="car1">
+                            <param id="0" name="Y">101</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="873765554912735">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="900016900076938" type="car2" />
+                        <condition id="-8" name="Is boolean instance variable set" sid="643816133838254" type="car2">
+                            <param id="0" name="Instance variable">movable</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="110907517346196" type="car2">
+                            <param id="0" name="X">728</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="481478734827056" type="car2">
+                            <param id="0" name="Y">101</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="758389107797823">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="890013663340777" type="car3" />
+                        <condition id="-8" name="Is boolean instance variable set" sid="927964491809475" type="car3">
+                            <param id="0" name="Instance variable">movable</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="113906392406526" type="car3">
+                            <param id="0" name="X">441</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="115003282156755" type="car3">
+                            <param id="0" name="Y">101</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" inactive="1" sid="433644900045220" title="GroupObjek2">
+            <sub-events>
+                <event-block sid="500430161802020">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="836909309571985" type="car4" />
+                        <condition id="1" name="Is overlapping another object" sid="993685302164138" type="car4">
+                            <param id="0" name="Object">shcar4</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="515238502793880" type="shcar4" />
+                    </conditions>
+                    <actions>
+                        <action behavior="DragDrop" id="0" name="Set enabled" sid="980616433614467" type="car4">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-4" name="Set position to another object" sid="167219390502257" type="car4">
+                            <param id="0" name="Object">shcar4</param>
+                            <param id="1" name="Image point (optional)">0</param>
+                        </action>
+                        <action id="0" name="Call function" sid="428409896509255" type="Function">
+                            <param id="0" name="Name">&quot;ShowPlacedText&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="258285355669346" type="car4">
+                            <param id="0" name="Instance variable">movable</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="304710655073152">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="512200427569830" type="Mouse">
+                            <param id="0" name="Object">car4</param>
+                        </condition>
+                        <condition behavior="DragDrop" id="3" name="Is enabled" sid="274576961322143" type="car4" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set cursor style" sid="450409856240954" type="Mouse">
+                            <param id="0" name="Cursor style">4</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="603011580878503">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="144411805510600" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set cursor style" sid="811527129990146" type="Mouse">
+                            <param id="0" name="Cursor style">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="681691706360447">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="997620460987588" type="car5" />
+                        <condition id="1" name="Is overlapping another object" sid="147589139795973" type="car5">
+                            <param id="0" name="Object">shcar5</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="722729252524370" type="shcar5" />
+                    </conditions>
+                    <actions>
+                        <action behavior="DragDrop" id="0" name="Set enabled" sid="211511275196055" type="car5">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-4" name="Set position to another object" sid="816248033950264" type="car5">
+                            <param id="0" name="Object">shcar5</param>
+                            <param id="1" name="Image point (optional)">0</param>
+                        </action>
+                        <action id="0" name="Call function" sid="948664456833246" type="Function">
+                            <param id="0" name="Name">&quot;ShowPlacedText&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="196114178777794" type="car5">
+                            <param id="0" name="Instance variable">movable</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="684098587470269">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="580199872259689" type="Mouse">
+                            <param id="0" name="Object">car5</param>
+                        </condition>
+                        <condition behavior="DragDrop" id="3" name="Is enabled" sid="939282747401674" type="car5" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set cursor style" sid="943031728385041" type="Mouse">
+                            <param id="0" name="Cursor style">4</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="846572983842308">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="839755012715199" type="car6" />
+                        <condition id="1" name="Is overlapping another object" sid="884937542922521" type="car6">
+                            <param id="0" name="Object">shcar6</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="704178995626234" type="shcar6" />
+                    </conditions>
+                    <actions>
+                        <action behavior="DragDrop" id="0" name="Set enabled" sid="213272880632747" type="car6">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-4" name="Set position to another object" sid="149619491329303" type="car6">
+                            <param id="0" name="Object">shcar6</param>
+                            <param id="1" name="Image point (optional)">0</param>
+                        </action>
+                        <action id="0" name="Call function" sid="933232714596223" type="Function">
+                            <param id="0" name="Name">&quot;ShowPlacedText&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="822209507247019" type="car6">
+                            <param id="0" name="Instance variable">movable</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="549813207663300">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="498114003875956" type="Mouse">
+                            <param id="0" name="Object">car6</param>
+                        </condition>
+                        <condition behavior="DragDrop" id="3" name="Is enabled" sid="250536540684407" type="car6" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set cursor style" sid="267067767014480" type="Mouse">
+                            <param id="0" name="Cursor style">4</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="971705985616756">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="714011558635868" type="car4" />
+                        <condition id="-8" name="Is boolean instance variable set" sid="131694850023816" type="car4">
+                            <param id="0" name="Instance variable">movable</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="627542359221860" type="car4">
+                            <param id="0" name="X">438</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="634646419415059" type="car4">
+                            <param id="0" name="Y">116</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="909680639102518">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="682790313724970" type="car5" />
+                        <condition id="-8" name="Is boolean instance variable set" sid="811406503290068" type="car5">
+                            <param id="0" name="Instance variable">movable</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="556855993656274" type="car5">
+                            <param id="0" name="X">669</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="747490936153884" type="car5">
+                            <param id="0" name="Y">116</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="358075993839000">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="593351344623491" type="car6" />
+                        <condition id="-8" name="Is boolean instance variable set" sid="664923425952288" type="car6">
+                            <param id="0" name="Instance variable">movable</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="464186505843071" type="car6">
+                            <param id="0" name="X">139</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="305493345028883" type="car6">
+                            <param id="0" name="Y">116</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" inactive="1" sid="364390920051936" title="GroupObjek3">
+            <sub-events>
+                <event-block sid="313056617967750">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="209641803895616" type="car7" />
+                        <condition id="1" name="Is overlapping another object" sid="452559520489970" type="car7">
+                            <param id="0" name="Object">shcar7</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="174964178783200" type="shcar7" />
+                    </conditions>
+                    <actions>
+                        <action behavior="DragDrop" id="0" name="Set enabled" sid="609316131937713" type="car7">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-4" name="Set position to another object" sid="677124769731727" type="car7">
+                            <param id="0" name="Object">shcar7</param>
+                            <param id="1" name="Image point (optional)">0</param>
+                        </action>
+                        <action id="0" name="Call function" sid="280860298725965" type="Function">
+                            <param id="0" name="Name">&quot;ShowPlacedText&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="911207732972851" type="car7">
+                            <param id="0" name="Instance variable">movable</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="313143954572949">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="626375763328945" type="Mouse">
+                            <param id="0" name="Object">car7</param>
+                        </condition>
+                        <condition behavior="DragDrop" id="3" name="Is enabled" sid="588145030875286" type="car7" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set cursor style" sid="389546948171847" type="Mouse">
+                            <param id="0" name="Cursor style">4</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="800844596423161">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="966126337365558" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set cursor style" sid="611552151699323" type="Mouse">
+                            <param id="0" name="Cursor style">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="791787889283591">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="887557622779112" type="car8" />
+                        <condition id="1" name="Is overlapping another object" sid="506134821620676" type="car8">
+                            <param id="0" name="Object">shcar8</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="649069414188204" type="shcar8" />
+                    </conditions>
+                    <actions>
+                        <action behavior="DragDrop" id="0" name="Set enabled" sid="918752966417312" type="car8">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-4" name="Set position to another object" sid="655874664576143" type="car8">
+                            <param id="0" name="Object">shcar8</param>
+                            <param id="1" name="Image point (optional)">0</param>
+                        </action>
+                        <action id="0" name="Call function" sid="350434592040611" type="Function">
+                            <param id="0" name="Name">&quot;ShowPlacedText&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="476640014800612" type="car8">
+                            <param id="0" name="Instance variable">movable</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="734095291225515">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="971424575961796" type="Mouse">
+                            <param id="0" name="Object">car8</param>
+                        </condition>
+                        <condition behavior="DragDrop" id="3" name="Is enabled" sid="733752292880300" type="car8" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set cursor style" sid="733747323312503" type="Mouse">
+                            <param id="0" name="Cursor style">4</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="747227517310338">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="787624758889254" type="car9" />
+                        <condition id="1" name="Is overlapping another object" sid="879546728098810" type="car9">
+                            <param id="0" name="Object">shcar9</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="714911559492678" type="shcar9" />
+                    </conditions>
+                    <actions>
+                        <action behavior="DragDrop" id="0" name="Set enabled" sid="577161083243044" type="car9">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-4" name="Set position to another object" sid="760012133566035" type="car9">
+                            <param id="0" name="Object">shcar9</param>
+                            <param id="1" name="Image point (optional)">0</param>
+                        </action>
+                        <action id="0" name="Call function" sid="573089347079386" type="Function">
+                            <param id="0" name="Name">&quot;ShowPlacedText&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="225283503832823" type="car9">
+                            <param id="0" name="Instance variable">movable</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="468635214931588">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="829640892840727" type="Mouse">
+                            <param id="0" name="Object">car6</param>
+                        </condition>
+                        <condition behavior="DragDrop" id="3" name="Is enabled" sid="950675698281903" type="car9" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set cursor style" sid="293833919315556" type="Mouse">
+                            <param id="0" name="Cursor style">4</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="347961126868969">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="777819919342598" type="car7" />
+                        <condition id="-8" name="Is boolean instance variable set" sid="126860251281374" type="car7">
+                            <param id="0" name="Instance variable">movable</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="758692144912135" type="car7">
+                            <param id="0" name="X">727</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="756469460529185" type="car7">
+                            <param id="0" name="Y">95</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="834156501785973">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="613178108810191" type="car8" />
+                        <condition id="-8" name="Is boolean instance variable set" sid="655259368791906" type="car8">
+                            <param id="0" name="Instance variable">movable</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="635051357039711" type="car8">
+                            <param id="0" name="X">136</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="548780834676835" type="car8">
+                            <param id="0" name="Y">88</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="889653369416621">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="549748272777329" type="car9" />
+                        <condition id="-8" name="Is boolean instance variable set" sid="711725823866262" type="car9">
+                            <param id="0" name="Instance variable">movable</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="351797359086708" type="car9">
+                            <param id="0" name="X">442</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="894692229624857" type="car9">
+                            <param id="0" name="Y">105</param>
+                        </action>
+                    </actions>
+                </event-block>
             </sub-events>
         </event-group>
         <event-block sid="952514237632046">
@@ -134,6 +552,10 @@
                 </action>
                 <action id="-12" name="Set group active" sid="506227310495407" type="System">
                     <param id="0" name="Group name">&quot;GroupObjek&quot;</param>
+                    <param id="1" name="State">0</param>
+                </action>
+                <action id="-12" name="Set group active" sid="252055123535035" type="System">
+                    <param id="0" name="Group name">&quot;GroupObjek2&quot;</param>
                     <param id="1" name="State">0</param>
                 </action>
                 <action id="-15" name="Set visible" sid="346604735228600" type="car1">
@@ -158,6 +580,63 @@
                     <param id="0" name="Visibility">0</param>
                 </action>
                 <action id="-15" name="Set visible" sid="620715260038740" type="shcar3">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="832425691253725" type="shcar1">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="996423773744647" type="car4">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="193274562834199" type="car5">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="193690353224006" type="car6">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="528236287542499" type="car4">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="615720079824318" type="car5">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="909812303680249" type="car6">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="416353218083058" type="shcar4">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="691479211443479" type="shcar5">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="412035871701079" type="shcar6">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="969599126268959" type="car7">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="734988965376329" type="car8">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="861181984019828" type="car9">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="758378449241339" type="car7">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="688864355776090" type="car8">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="298535598251486" type="car9">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="838270612032662" type="shcar7">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="333538822877128" type="shcar8">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="296402866957786" type="shcar9">
                     <param id="0" name="Visibility">0</param>
                 </action>
             </actions>
@@ -207,17 +686,30 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="0" name="Set text" sid="201829311056454" type="Text2">
-                    <param id="0" name="Text">&quot;ini Level 2&quot;</param>
+                <action id="-12" name="Set group active" sid="633423571828165" type="System">
+                    <param id="0" name="Group name">&quot;GroupObjek2&quot;</param>
+                    <param id="1" name="State">1</param>
                 </action>
-                <action id="-15" name="Set visible" sid="581014794168928" type="Text2">
+                <action id="-15" name="Set visible" sid="844366808477211" type="car4">
                     <param id="0" name="Visibility">1</param>
                 </action>
-                <action id="-16" name="Wait" sid="847303243659922" type="System">
-                    <param id="0" name="Seconds">2</param>
+                <action id="-15" name="Set visible" sid="365201149620340" type="car5">
+                    <param id="0" name="Visibility">1</param>
                 </action>
-                <action id="-15" name="Set visible" sid="983519681519243" type="Text2">
-                    <param id="0" name="Visibility">0</param>
+                <action id="-15" name="Set visible" sid="876596149960061" type="car6">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="248506391790926" type="shcar4">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="943178153074065" type="car4">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="747379335072080" type="car5">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="752780552531653" type="car6">
+                    <param id="0" name="State">1</param>
                 </action>
             </actions>
         </event-block>
@@ -230,17 +722,30 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="0" name="Set text" sid="593224980902232" type="Text2">
-                    <param id="0" name="Text">&quot;ini Level 3&quot;</param>
+                <action id="-12" name="Set group active" sid="810939731955955" type="System">
+                    <param id="0" name="Group name">&quot;GroupObjek3&quot;</param>
+                    <param id="1" name="State">1</param>
                 </action>
-                <action id="-15" name="Set visible" sid="884417058924212" type="Text2">
+                <action id="-15" name="Set visible" sid="997259928937573" type="car7">
                     <param id="0" name="Visibility">1</param>
                 </action>
-                <action id="-16" name="Wait" sid="843542819352408" type="System">
-                    <param id="0" name="Seconds">2</param>
+                <action id="-15" name="Set visible" sid="466487087355809" type="car8">
+                    <param id="0" name="Visibility">1</param>
                 </action>
-                <action id="-15" name="Set visible" sid="589620715422545" type="Text2">
-                    <param id="0" name="Visibility">0</param>
+                <action id="-15" name="Set visible" sid="894408127144554" type="car9">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="686776252089516" type="shcar7">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="229209933134680" type="car7">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="249290024648194" type="car8">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="589203676569712" type="car9">
+                    <param id="0" name="State">1</param>
                 </action>
             </actions>
         </event-block>
@@ -278,6 +783,82 @@
             </conditions>
             <actions>
                 <action id="-15" name="Set visible" sid="900616619258994" type="shcar3">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="495606233284210">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="464950611051093" type="System">
+                    <param id="0" name="Variable">PiecePlaced</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="881093704900615" type="System">
+                    <param id="0" name="Variable">PuzzleNumber</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="783474927216634" type="shcar5">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="369282078246063">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="505725705295156" type="System">
+                    <param id="0" name="Variable">PiecePlaced</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="348848444793168" type="System">
+                    <param id="0" name="Variable">PuzzleNumber</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="268644627630605" type="shcar6">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="584636753909001">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="385742203565442" type="System">
+                    <param id="0" name="Variable">PiecePlaced</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="611042821530056" type="System">
+                    <param id="0" name="Variable">PuzzleNumber</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="161165799155398" type="shcar8">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="785993195929366">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="114282075701578" type="System">
+                    <param id="0" name="Variable">PiecePlaced</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="411701108183987" type="System">
+                    <param id="0" name="Variable">PuzzleNumber</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="958262874181810" type="shcar9">
                     <param id="0" name="Visibility">1</param>
                 </action>
             </actions>
