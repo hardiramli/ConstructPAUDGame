@@ -43,6 +43,9 @@
                     <param id="0" name="Name">&quot;Menu3&quot;</param>
                     <param id="1" name="Parameter {n}"></param>
                 </action>
+                <action id="-15" name="Set visible" sid="784764346660760" type="Sprite2">
+                    <param id="0" name="Visibility">0</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="743973280713181">
@@ -68,6 +71,9 @@
                 <action id="0" name="Call function" sid="990465905532590" type="Function">
                     <param id="0" name="Name">&quot;Menu1&quot;</param>
                     <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="-15" name="Set visible" sid="234206062098284" type="Sprite2">
+                    <param id="0" name="Visibility">1</param>
                 </action>
             </actions>
         </event-block>
