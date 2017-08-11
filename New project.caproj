@@ -662,6 +662,16 @@
     </global-instances>
     <sounds-folder>
         <file name="number-one.ogg" />
+        <file name="dua.m4a" />
+        <file name="dua.ogg" />
+        <file name="empat.m4a" />
+        <file name="empat.ogg" />
+        <file name="lima.m4a" />
+        <file name="lima.ogg" />
+        <file name="satu.m4a" />
+        <file name="satu.ogg" />
+        <file name="tiga.m4a" />
+        <file name="tiga.ogg" />
     </sounds-folder>
     <music-folder />
     <files-folder>
