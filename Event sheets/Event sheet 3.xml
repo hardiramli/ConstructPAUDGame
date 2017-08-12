@@ -178,7 +178,7 @@
             </conditions>
             <actions>
                 <action id="0" name="Play" sid="550778867164824" type="Audio">
-                    <param id="0" name="Audio file">number-one</param>
+                    <param id="0" name="Audio file">satu</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
@@ -234,9 +234,9 @@
             </conditions>
             <actions>
                 <action id="0" name="Play" sid="199821720769818" type="Audio">
-                    <param id="0" name="Audio file">number-one</param>
+                    <param id="0" name="Audio file">dua</param>
                     <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">-2</param>
+                    <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
                 <action id="0" name="Set text" sid="420302158012595" type="Text3">
@@ -290,9 +290,9 @@
             </conditions>
             <actions>
                 <action id="0" name="Play" sid="427675329968229" type="Audio">
-                    <param id="0" name="Audio file">number-one</param>
+                    <param id="0" name="Audio file">tiga</param>
                     <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">-3</param>
+                    <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
                 <action id="0" name="Set text" sid="126321198606500" type="Text3">
@@ -346,9 +346,9 @@
             </conditions>
             <actions>
                 <action id="0" name="Play" sid="364413254400421" type="Audio">
-                    <param id="0" name="Audio file">number-one</param>
+                    <param id="0" name="Audio file">empat</param>
                     <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">-2</param>
+                    <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
                 <action id="0" name="Set text" sid="968877743563398" type="Text3">
@@ -402,9 +402,9 @@
             </conditions>
             <actions>
                 <action id="0" name="Play" sid="523245100857437" type="Audio">
-                    <param id="0" name="Audio file">number-one</param>
+                    <param id="0" name="Audio file">lima</param>
                     <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">-3</param>
+                    <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
                 <action id="0" name="Set text" sid="133434961142473" type="Text3">
