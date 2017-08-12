@@ -121,10 +121,10 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="794845757760132" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.501511" original-source="C:\Users\M Hardi R\Videos\paud construct\car1.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501511" original-source="C:\Users\M Hardi R\Videos\paud construct\car1x.png">
                         <collision-poly>
                             <point x="0.457692" y="0.413897" />
-                            <point x="0.596155" y="0.108761" />
+                            <point x="0.615386" y="0.114803" />
                             <point x="0.78077" y="0.114804" />
                             <point x="0.769231" y="0.586102" />
                             <point x="0.926922" y="0.803626" />
@@ -151,7 +151,7 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="891614426387519" speed="5">
-                    <frame duration="1" hotspotX="0.502674" hotspotY="0.501511" original-source="C:\Users\M Hardi R\Videos\paud construct\car2.png">
+                    <frame duration="1" hotspotX="0.502674" hotspotY="0.501511" original-source="C:\Users\M Hardi R\Videos\paud construct\car2x.png">
                         <collision-poly>
                             <point x="0.101604" y="0.10574" />
                             <point x="0.903743" y="0.108761" />
@@ -179,7 +179,7 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="268258352215843" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.501661" original-source="C:\Users\M Hardi R\Videos\paud construct\car3.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501661" original-source="C:\Users\M Hardi R\Videos\paud construct\car3x.png">
                         <collision-poly>
                             <point x="0.0384615" y="0.0431897" />
                             <point x="0.269231" y="0.0431896" />
@@ -198,7 +198,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="310964494624327" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.501511" original-source="C:\Users\M Hardi R\Videos\paud construct\car1s.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501511" original-source="C:\Users\M Hardi R\Videos\paud construct\car1sx.png">
                         <collision-poly>
                             <point x="0.430769" y="0.510574" />
                             <point x="0.576924" y="0.495468" />
@@ -217,7 +217,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="218084078194182" speed="5">
-                    <frame duration="1" hotspotX="0.502674" hotspotY="0.501511" original-source="C:\Users\M Hardi R\Videos\paud construct\car2s.png">
+                    <frame duration="1" hotspotX="0.502674" hotspotY="0.501511" original-source="C:\Users\M Hardi R\Videos\paud construct\car2sx.png">
                         <collision-poly>
                             <point x="0.363636" y="0.350453" />
                             <point x="0.663101" y="0.344411" />
@@ -234,7 +234,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="148831926707516" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.501661" original-source="C:\Users\M Hardi R\Videos\paud construct\car3s.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501661" original-source="C:\Users\M Hardi R\Videos\paud construct\car3sx.png">
                         <collision-poly>
                             <point x="0.225962" y="0.478405" />
                             <point x="0.389423" y="0.438538" />
@@ -618,7 +618,15 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="921967410122329" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500931" original-source="C:\Users\M Hardi R\Videos\paud construct\wood2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501667" original-source="C:\Users\M Hardi R\Videos\paud construct\wood2x.png">
+                        <collision-poly>
+                            <point x="0.055" y="0.0416667" />
+                            <point x="0.5" y="0.04" />
+                            <point x="0.96375" y="0.0483333" />
+                            <point x="0.95125" y="0.935" />
+                            <point x="0.05625" y="0.925" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -626,7 +634,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="372319980911472" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Hardi R\Videos\paud construct\floor.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Hardi R\Videos\paud construct\floor dark.png" />
                 </animation>
             </animation-folder>
         </object-type>
