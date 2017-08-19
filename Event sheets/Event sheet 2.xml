@@ -227,5 +227,35 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="335902340897241">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="234674352294282" type="System" />
+            </conditions>
+            <actions>
+                <action id="-1" name="Set X" sid="613604173745165" type="Sprite10">
+                    <param id="0" name="X">Sprite10.X - 1</param>
+                </action>
+                <action id="-1" name="Set X" sid="549501851206662" type="Sprite11">
+                    <param id="0" name="X">Sprite11.X - 1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="555404729234287">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="356162020503267" type="System" />
+                <condition id="-1" name="Compare X" sid="430145003810099" type="Sprite11">
+                    <param id="0" name="Comparison">3</param>
+                    <param id="1" name="X co-ordinate">-426.842</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-1" name="Set X" sid="430387398512441" type="Sprite10">
+                    <param id="0" name="X">Sprite10.xSp3Fix</param>
+                </action>
+                <action id="-1" name="Set X" sid="140981385731266" type="Sprite11">
+                    <param id="0" name="X">Sprite11.xSp3Fix</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
