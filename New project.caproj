@@ -634,7 +634,47 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="372319980911472" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Hardi R\Videos\paud construct\floor dark.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500882" original-source="C:\Users\M Hardi R\Videos\paud construct\floor-fix.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite10" sid="767200361950946">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="408762207188559" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Hardi R\Videos\paud construct\blueprint.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite11" sid="588889029580413">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="994088389362149" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Hardi R\Videos\paud construct\wood2x.png">
+                        <collision-poly>
+                            <point x="0.05625" y="0.075" />
+                            <point x="0.5" y="0.04" />
+                            <point x="0.96375" y="0.0483333" />
+                            <point x="0.95125" y="0.935" />
+                            <point x="0.05625" y="0.925" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite12" sid="889664726717777">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="388269096430364" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500882" original-source="C:\Users\M Hardi R\Videos\paud construct\floor-fix.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite13" sid="523059100670236">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="285820748719808" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500882" original-source="C:\Users\M Hardi R\Videos\paud construct\floor-fix.png" />
                 </animation>
             </animation-folder>
         </object-type>
