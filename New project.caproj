@@ -832,6 +832,24 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Sprite19" sid="225174119531810">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="237636389423812" speed="5">
+                    <frame duration="1" hotspotX="0.502075" hotspotY="0.5" original-source="C:\Users\M Hardi R\Videos\paud construct\choice-1.png">
+                        <collision-poly>
+                            <point x="0.26971" y="0" />
+                            <point x="0.73029" y="0.0060241" />
+                            <point x="0.875519" y="0.180723" />
+                            <point x="0.991701" y="0.331325" />
+                            <point x="1" y="1" />
+                            <point x="0.00414938" y="0.993976" />
+                            <point x="0.0124481" y="0.373494" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
