@@ -25,12 +25,6 @@
                 <action id="-15" name="Set visible" sid="817534649195072" type="Sprite9">
                     <param id="0" name="Visibility">0</param>
                 </action>
-                <action id="2" name="Set visible" sid="456149120927100" type="Button">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="3" name="Set enabled" sid="540303316327703" type="Button">
-                    <param id="0" name="Mode">0</param>
-                </action>
                 <action id="-13" name="Set boolean" sid="745224126788592" type="Sprite">
                     <param id="0" name="Instance variable">click_enable</param>
                     <param id="1" name="Value">0</param>
@@ -54,6 +48,15 @@
                 <action id="-10" name="Add to" sid="449561699763415" type="System">
                     <param id="0" name="Variable">Stage</param>
                     <param id="1" name="Value">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="345897755401118" type="Sprite21">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="6" name="Set speed" sid="637215383365629" type="Sprite23">
+                    <param id="0" name="Speed">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="707485892099855" type="Sprite23">
+                    <param id="0" name="Visibility">0</param>
                 </action>
             </actions>
         </event-block>
@@ -189,10 +192,19 @@
                 <action id="-15" name="Set visible" sid="240575548594442" type="Text3">
                     <param id="0" name="Visibility">1</param>
                 </action>
+                <action id="5" name="Set frame" sid="272428660854251" type="Sprite23">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="528091602819950" type="Sprite23">
+                    <param id="0" name="Visibility">1</param>
+                </action>
                 <action id="-16" name="Wait" sid="784324420149619" type="System">
                     <param id="0" name="Seconds">2.0</param>
                 </action>
                 <action id="-15" name="Set visible" sid="447679824332066" type="Text3">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="142656967070406" type="Sprite23">
                     <param id="0" name="Visibility">0</param>
                 </action>
             </actions>
@@ -206,11 +218,8 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="2" name="Set visible" sid="278236263927817" type="Button">
+                        <action id="-15" name="Set visible" sid="344878722852304" type="Sprite21">
                             <param id="0" name="Visibility">1</param>
-                        </action>
-                        <action id="3" name="Set enabled" sid="501799386945931" type="Button">
-                            <param id="0" name="Mode">1</param>
                         </action>
                         <action id="-16" name="Wait" sid="193345077987102" type="System">
                             <param id="0" name="Seconds">2.0</param>
@@ -245,10 +254,19 @@
                 <action id="-15" name="Set visible" sid="525740909818809" type="Text3">
                     <param id="0" name="Visibility">1</param>
                 </action>
+                <action id="5" name="Set frame" sid="780588951259079" type="Sprite23">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="282714602488090" type="Sprite23">
+                    <param id="0" name="Visibility">1</param>
+                </action>
                 <action id="-16" name="Wait" sid="275887017583721" type="System">
                     <param id="0" name="Seconds">2.0</param>
                 </action>
                 <action id="-15" name="Set visible" sid="189402130791529" type="Text3">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="665186218123471" type="Sprite23">
                     <param id="0" name="Visibility">0</param>
                 </action>
             </actions>
@@ -262,11 +280,8 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="2" name="Set visible" sid="964260056932166" type="Button">
+                        <action id="-15" name="Set visible" sid="763773039394669" type="Sprite21">
                             <param id="0" name="Visibility">1</param>
-                        </action>
-                        <action id="3" name="Set enabled" sid="770863914068779" type="Button">
-                            <param id="0" name="Mode">1</param>
                         </action>
                         <action id="-16" name="Wait" sid="476852045595226" type="System">
                             <param id="0" name="Seconds">2.0</param>
@@ -301,10 +316,19 @@
                 <action id="-15" name="Set visible" sid="371779980814755" type="Text3">
                     <param id="0" name="Visibility">1</param>
                 </action>
+                <action id="5" name="Set frame" sid="327887371629662" type="Sprite23">
+                    <param id="0" name="Frame number">2</param>
+                </action>
+                <action id="-15" name="Set visible" sid="480421889387831" type="Sprite23">
+                    <param id="0" name="Visibility">1</param>
+                </action>
                 <action id="-16" name="Wait" sid="680335326730899" type="System">
                     <param id="0" name="Seconds">2.0</param>
                 </action>
                 <action id="-15" name="Set visible" sid="453313585292241" type="Text3">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="595484290637822" type="Sprite23">
                     <param id="0" name="Visibility">0</param>
                 </action>
             </actions>
@@ -318,11 +342,8 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="2" name="Set visible" sid="268133117566757" type="Button">
+                        <action id="-15" name="Set visible" sid="867656854359876" type="Sprite21">
                             <param id="0" name="Visibility">1</param>
-                        </action>
-                        <action id="3" name="Set enabled" sid="803166796047171" type="Button">
-                            <param id="0" name="Mode">1</param>
                         </action>
                         <action id="-16" name="Wait" sid="591437836112238" type="System">
                             <param id="0" name="Seconds">2.0</param>
@@ -357,10 +378,19 @@
                 <action id="-15" name="Set visible" sid="619004852365015" type="Text3">
                     <param id="0" name="Visibility">1</param>
                 </action>
+                <action id="5" name="Set frame" sid="623387828424369" type="Sprite23">
+                    <param id="0" name="Frame number">3</param>
+                </action>
+                <action id="-15" name="Set visible" sid="418998266667444" type="Sprite23">
+                    <param id="0" name="Visibility">1</param>
+                </action>
                 <action id="-16" name="Wait" sid="627555554343963" type="System">
                     <param id="0" name="Seconds">2.0</param>
                 </action>
                 <action id="-15" name="Set visible" sid="906375694025733" type="Text3">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="191455550971958" type="Sprite23">
                     <param id="0" name="Visibility">0</param>
                 </action>
             </actions>
@@ -374,11 +404,8 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="2" name="Set visible" sid="915310755521715" type="Button">
+                        <action id="-15" name="Set visible" sid="164897687933119" type="Sprite21">
                             <param id="0" name="Visibility">1</param>
-                        </action>
-                        <action id="3" name="Set enabled" sid="552167628709113" type="Button">
-                            <param id="0" name="Mode">1</param>
                         </action>
                         <action id="-16" name="Wait" sid="719231666545331" type="System">
                             <param id="0" name="Seconds">2.0</param>
@@ -413,10 +440,19 @@
                 <action id="-15" name="Set visible" sid="152369539225079" type="Text3">
                     <param id="0" name="Visibility">1</param>
                 </action>
+                <action id="5" name="Set frame" sid="437359787813506" type="Sprite23">
+                    <param id="0" name="Frame number">4</param>
+                </action>
+                <action id="-15" name="Set visible" sid="118546548455813" type="Sprite23">
+                    <param id="0" name="Visibility">1</param>
+                </action>
                 <action id="-16" name="Wait" sid="825930749356876" type="System">
                     <param id="0" name="Seconds">2.0</param>
                 </action>
                 <action id="-15" name="Set visible" sid="796806048864520" type="Text3">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="323790334528766" type="Sprite23">
                     <param id="0" name="Visibility">0</param>
                 </action>
             </actions>
@@ -476,9 +512,6 @@
                 <action id="-16" name="Wait" sid="236988153927148" type="System">
                     <param id="0" name="Seconds">1.0</param>
                 </action>
-                <action id="2" name="Set visible" sid="706683791914024" type="Button">
-                    <param id="0" name="Visibility">0</param>
-                </action>
                 <action id="-15" name="Set visible" sid="745145401460892" type="Sprite">
                     <param id="0" name="Visibility">1</param>
                 </action>
@@ -492,6 +525,9 @@
                 <action id="-13" name="Set boolean" sid="498385317987278" type="Sprite5">
                     <param id="0" name="Instance variable">click_enable</param>
                     <param id="1" name="Value">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="345550629157918" type="Sprite21">
+                    <param id="0" name="Visibility">0</param>
                 </action>
             </actions>
         </event-block>
@@ -507,9 +543,6 @@
             <actions>
                 <action id="-16" name="Wait" sid="485943762819751" type="System">
                     <param id="0" name="Seconds">1.0</param>
-                </action>
-                <action id="2" name="Set visible" sid="173120801875961" type="Button">
-                    <param id="0" name="Visibility">0</param>
                 </action>
                 <action id="-15" name="Set visible" sid="782013368747550" type="Sprite">
                     <param id="0" name="Visibility">1</param>
@@ -532,6 +565,9 @@
                     <param id="0" name="Instance variable">click_enable</param>
                     <param id="1" name="Value">1</param>
                 </action>
+                <action id="-15" name="Set visible" sid="955736693221357" type="Sprite21">
+                    <param id="0" name="Visibility">0</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="188153976155699">
@@ -546,9 +582,6 @@
             <actions>
                 <action id="-16" name="Wait" sid="640538844756259" type="System">
                     <param id="0" name="Seconds">1.0</param>
-                </action>
-                <action id="2" name="Set visible" sid="289218604666260" type="Button">
-                    <param id="0" name="Visibility">0</param>
                 </action>
                 <action id="-15" name="Set visible" sid="624975963600762" type="Sprite">
                     <param id="0" name="Visibility">1</param>
@@ -578,6 +611,9 @@
                     <param id="0" name="Instance variable">click_enable</param>
                     <param id="1" name="Value">1</param>
                 </action>
+                <action id="-15" name="Set visible" sid="830801042880155" type="Sprite21">
+                    <param id="0" name="Visibility">0</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="470216043509559">
@@ -592,9 +628,6 @@
             <actions>
                 <action id="-16" name="Wait" sid="674794235154685" type="System">
                     <param id="0" name="Seconds">1.0</param>
-                </action>
-                <action id="2" name="Set visible" sid="299785653208192" type="Button">
-                    <param id="0" name="Visibility">0</param>
                 </action>
                 <action id="-15" name="Set visible" sid="704642398799017" type="Sprite">
                     <param id="0" name="Visibility">1</param>
@@ -631,33 +664,38 @@
                     <param id="0" name="Instance variable">click_enable</param>
                     <param id="1" name="Value">1</param>
                 </action>
+                <action id="-15" name="Set visible" sid="514399014848816" type="Sprite21">
+                    <param id="0" name="Visibility">0</param>
+                </action>
             </actions>
         </event-block>
-        <event-block sid="527781992731917">
+        <event-block sid="497504940449237">
             <conditions>
-                <condition id="0" name="On clicked" sid="504278576900721" type="Button" />
+                <condition id="6" name="On object clicked" sid="872001386299877" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Sprite21</param>
+                </condition>
+                <condition id="-9" name="Is visible" sid="335077938338284" type="Sprite21" />
             </conditions>
             <actions>
-                <action id="-10" name="Add to" sid="981724739243607" type="System">
+                <action id="-10" name="Add to" sid="668094518120072" type="System">
                     <param id="0" name="Variable">Stage</param>
                     <param id="1" name="Value">1</param>
                 </action>
-                <action id="3" name="Set enabled" sid="179278709694378" type="Button">
-                    <param id="0" name="Mode">0</param>
-                </action>
-                <action id="-15" name="Set visible" sid="912204994859271" type="Sprite">
+                <action id="-15" name="Set visible" sid="714202810783844" type="Sprite">
                     <param id="0" name="Visibility">0</param>
                 </action>
-                <action id="-15" name="Set visible" sid="260251548452561" type="Sprite5">
+                <action id="-15" name="Set visible" sid="896243501017172" type="Sprite5">
                     <param id="0" name="Visibility">0</param>
                 </action>
-                <action id="-15" name="Set visible" sid="259377792699789" type="Sprite6">
+                <action id="-15" name="Set visible" sid="995591030821378" type="Sprite6">
                     <param id="0" name="Visibility">0</param>
                 </action>
-                <action id="-15" name="Set visible" sid="307801262282192" type="Sprite8">
+                <action id="-15" name="Set visible" sid="559561957327806" type="Sprite8">
                     <param id="0" name="Visibility">0</param>
                 </action>
-                <action id="-15" name="Set visible" sid="362239261268064" type="Sprite9">
+                <action id="-15" name="Set visible" sid="115509230191071" type="Sprite9">
                     <param id="0" name="Visibility">0</param>
                 </action>
             </actions>
