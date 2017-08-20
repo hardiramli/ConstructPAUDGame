@@ -639,6 +639,13 @@
                 <action id="-15" name="Set visible" sid="296402866957786" type="shcar9">
                     <param id="0" name="Visibility">0</param>
                 </action>
+                <action id="7" name="Play (by name)" sid="271653171968283" type="Audio">
+                    <param id="0" name="Folder">0</param>
+                    <param id="1" name="Audio file name">&quot;boros&quot;</param>
+                    <param id="3" name="Loop">1</param>
+                    <param id="4" name="Volume">0</param>
+                    <param id="2" name="Tag (optional)">&quot;boros&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="416736776684574">
@@ -913,6 +920,7 @@
                     <param id="0" name="Variable">PiecePlaced</param>
                     <param id="1" name="Value">0</param>
                 </action>
+                <action id="33" name="Stop all" sid="484501750785505" type="Audio" />
                 <action id="-2" name="Go to layout" sid="457930032284076" type="System">
                     <param id="0" name="Layout">Layout 2</param>
                 </action>
