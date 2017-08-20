@@ -81,15 +81,15 @@
             </instance-variables>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="401759606812308" speed="5">
-                    <frame duration="1" hotspotX="0.502075" hotspotY="0.5" original-source="C:\Users\M Hardi R\Videos\paud construct\choice-1.png">
+                    <frame duration="1" hotspotX="0.506494" hotspotY="0.5" original-source="C:\Users\M Hardi R\Videos\paud construct\tools-screw2.png">
                         <collision-poly>
-                            <point x="0.273859" y="0.0240964" />
-                            <point x="0.746888" y="0.0120482" />
-                            <point x="1" y="0.379518" />
-                            <point x="1" y="0.5" />
-                            <point x="1" y="1" />
-                            <point x="0.00414938" y="0.993976" />
-                            <point x="0.00414938" y="0.379518" />
+                            <point x="0.260872" y="0" />
+                            <point x="0.617018" y="0" />
+                            <point x="0.753247" y="0.473014" />
+                            <point x="0.753247" y="1" />
+                            <point x="0.207792" y="1" />
+                            <point x="0.134019" y="0.506172" />
+                            <point x="0.328825" y="0.424233" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -104,15 +104,15 @@
             </instance-variables>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="581781897055808" speed="5">
-                    <frame duration="1" hotspotX="0.502075" hotspotY="0.5" original-source="C:\Users\M Hardi R\Videos\paud construct\choice-2.png">
+                    <frame duration="1" hotspotX="0.504" hotspotY="0.5" original-source="C:\Users\M Hardi R\Videos\paud construct\tools-wrench.png">
                         <collision-poly>
-                            <point x="0.278008" y="0" />
-                            <point x="0.742739" y="0.0180723" />
-                            <point x="1" y="0.373494" />
-                            <point x="1" y="0.5" />
-                            <point x="1" y="1" />
-                            <point x="0.00414938" y="0.993976" />
-                            <point x="0.0165975" y="0.361446" />
+                            <point x="1" y="0.139344" />
+                            <point x="0.6" y="0.812561" />
+                            <point x="0.599701" y="0.957091" />
+                            <point x="0.0800004" y="1" />
+                            <point x="0" y="0.758197" />
+                            <point x="0.32" y="0.683389" />
+                            <point x="0.743402" y="0.0942623" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -299,7 +299,18 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="244771801440902" speed="5">
-                    <frame duration="1" hotspotX="0.501193" hotspotY="0.5" original-source="C:\Users\M Hardi R\Pictures\THelIOx.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Hardi R\Videos\paud construct\tools-screw.png">
+                        <collision-poly>
+                            <point x="0.423077" y="0.134146" />
+                            <point x="0.5" y="0" />
+                            <point x="0.615385" y="0.121951" />
+                            <point x="0.782051" y="0.5" />
+                            <point x="0.782051" y="0.930894" />
+                            <point x="0.5" y="1" />
+                            <point x="0.24359" y="0.922764" />
+                            <point x="0.24359" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -318,7 +329,18 @@
             </instance-variables>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="297104122933159" speed="5">
-                    <frame duration="1" hotspotX="0.501193" hotspotY="0.5" original-source="C:\Users\tegar\Pictures\xmlxsdvalid.JPG" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Hardi R\Videos\paud construct\tools-ruler.png">
+                        <collision-poly>
+                            <point x="0.424779" y="0.345324" />
+                            <point x="0.765486" y="0.0683453" />
+                            <point x="0.924779" y="0.0791367" />
+                            <point x="0.477876" y="0.392086" />
+                            <point x="0.685841" y="0.820144" />
+                            <point x="0.5" y="0.982014" />
+                            <point x="0.132743" y="0.892086" />
+                            <point x="0.0663716" y="0.669065" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -331,7 +353,18 @@
             </instance-variables>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="477692324889138" speed="5">
-                    <frame duration="1" hotspotX="0.501193" hotspotY="0.5" original-source="C:\Users\tegar\Pictures\xmlxsdvalid.JPG" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Hardi R\Videos\paud construct\tools-hammer.png">
+                        <collision-poly>
+                            <point x="0.455975" y="0.433628" />
+                            <point x="0.625786" y="0.0707965" />
+                            <point x="0.798741" y="0.00442478" />
+                            <point x="1" y="0.340708" />
+                            <point x="0.852203" y="0.464602" />
+                            <point x="0.770441" y="0.345133" />
+                            <point x="0.0534591" y="1" />
+                            <point x="0.0031447" y="0.840707" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -705,6 +738,97 @@
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="285820748719808" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.500882" original-source="C:\Users\M Hardi R\Videos\paud construct\floor-fix.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite14" sid="561122398845969">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="605715866303970" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Hardi R\Videos\paud construct\boardwood.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite15" sid="999495790766191">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="528102419609170" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Hardi R\Videos\paud construct\button-a.png">
+                        <collision-poly>
+                            <point x="0.00280899" y="0.00675676" />
+                            <point x="0.997191" y="0.00675676" />
+                            <point x="0.997191" y="0.993243" />
+                            <point x="0.00280899" y="0.993243" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.503401" original-source="C:\Users\M Hardi R\Videos\paud construct\button-ax.png">
+                        <collision-poly>
+                            <point x="0.00280899" y="0.00680272" />
+                            <point x="0.997191" y="0.00680272" />
+                            <point x="0.997191" y="0.993197" />
+                            <point x="0.00280899" y="0.993197" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite16" sid="908212770034128">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="113938688329902" speed="5">
+                    <frame duration="1" hotspotX="0.502075" hotspotY="0.5" original-source="C:\Users\M Hardi R\Videos\paud construct\choice-2.png">
+                        <collision-poly>
+                            <point x="0.261411" y="0" />
+                            <point x="0.742739" y="0" />
+                            <point x="0.979253" y="0.331325" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0.00414938" y="0.993976" />
+                            <point x="0.0207469" y="0.379518" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite17" sid="276485364348190">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="475425811175904" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Hardi R\Videos\paud construct\back.png">
+                        <collision-poly>
+                            <point x="0.239583" y="0.2875" />
+                            <point x="0.708333" y="0" />
+                            <point x="0.739583" y="0.2625" />
+                            <point x="1" y="0.4375" />
+                            <point x="0.760417" y="0.7125" />
+                            <point x="0.65625" y="0.9875" />
+                            <point x="0.229167" y="0.725" />
+                            <point x="0.0104167" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite18" sid="652907408880505">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="430121563727414" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Hardi R\Videos\paud construct\button-b.png">
+                        <collision-poly>
+                            <point x="0.00280899" y="0.00675676" />
+                            <point x="0.997191" y="0.00675676" />
+                            <point x="0.997191" y="0.993243" />
+                            <point x="0.00280899" y="0.993243" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.503401" original-source="C:\Users\M Hardi R\Videos\paud construct\button-bx.png">
+                        <collision-poly>
+                            <point x="0.00280899" y="0.00680272" />
+                            <point x="0.997191" y="0.00680272" />
+                            <point x="0.997191" y="0.993197" />
+                            <point x="0.00280899" y="0.993197" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
