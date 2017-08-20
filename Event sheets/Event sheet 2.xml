@@ -18,8 +18,10 @@
                     <param id="1" name="Audio file name">&quot;boros&quot;</param>
                     <param id="3" name="Loop">0</param>
                     <param id="4" name="Volume">0</param>
-                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                    <param id="2" name="Tag (optional)">&quot;boros&quot;</param>
                 </action>
+                <action id="2" name="Stop" sid="596455633984841" type="Sprite15" />
+                <action id="2" name="Stop" sid="620339347034088" type="Sprite18" />
             </actions>
         </event-block>
         <event-block sid="355093945081137">
@@ -39,9 +41,23 @@
         </event-block>
         <event-block sid="515886727911122">
             <conditions>
-                <condition id="0" name="On clicked" sid="977110783885073" type="Play" />
+                <condition id="6" name="On object clicked" sid="977110783885073" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Sprite15</param>
+                </condition>
+                <condition id="-9" name="Is visible" sid="212244407693467" type="Sprite15" />
             </conditions>
             <actions>
+                <action id="5" name="Set frame" sid="737867451107913" type="Sprite15">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="445158477614478" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="-15" name="Set visible" sid="784764346660760" type="Sprite2">
+                    <param id="0" name="Visibility">0</param>
+                </action>
                 <action id="-9" name="Set value" sid="946436758122124" type="System">
                     <param id="0" name="Variable">PositionMenu</param>
                     <param id="1" name="Value">1</param>
@@ -50,16 +66,27 @@
                     <param id="0" name="Name">&quot;Menu3&quot;</param>
                     <param id="1" name="Parameter {n}"></param>
                 </action>
-                <action id="-15" name="Set visible" sid="784764346660760" type="Sprite2">
-                    <param id="0" name="Visibility">0</param>
-                </action>
             </actions>
         </event-block>
         <event-block sid="743973280713181">
             <conditions>
-                <condition id="0" name="On clicked" sid="761971369717992" type="Option" />
+                <condition id="6" name="On object clicked" sid="761971369717992" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Sprite18</param>
+                </condition>
+                <condition id="-9" name="Is visible" sid="195311008773583" type="Sprite18" />
             </conditions>
             <actions>
+                <action id="5" name="Set frame" sid="493602891169480" type="Sprite18">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="386141917006540" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="6" name="Stop" sid="978218682351832" type="Audio">
+                    <param id="0" name="Tag">&quot;boros&quot;</param>
+                </action>
                 <action id="-2" name="Go to layout" sid="156421052047499" type="System">
                     <param id="0" name="Layout">Layout 3</param>
                 </action>
@@ -67,7 +94,12 @@
         </event-block>
         <event-block sid="688204764648691">
             <conditions>
-                <condition id="0" name="On clicked" sid="229487978467891" type="Back" />
+                <condition id="6" name="On object clicked" sid="229487978467891" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Sprite17</param>
+                </condition>
+                <condition id="-9" name="Is visible" sid="988106392889860" type="Sprite17" />
             </conditions>
             <actions>
                 <action id="-9" name="Set value" sid="691258149193866" type="System">
@@ -90,22 +122,31 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="2" name="Set visible" sid="671440899130942" type="Play">
+                <action id="5" name="Set frame" sid="644589827419599" type="Sprite15">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="287725290289086" type="Sprite18">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="671440899130942" type="Sprite15">
                     <param id="0" name="Visibility">1</param>
                 </action>
-                <action id="2" name="Set visible" sid="221911623932097" type="Option">
+                <action id="-15" name="Set visible" sid="221911623932097" type="Sprite18">
                     <param id="0" name="Visibility">1</param>
                 </action>
-                <action id="2" name="Set visible" sid="501549420781179" type="Back">
+                <action id="-15" name="Set visible" sid="501549420781179" type="Sprite17">
                     <param id="0" name="Visibility">0</param>
                 </action>
-                <action id="-15" name="Set visible" sid="399700790843309" type="Sprite5">
+                <action id="-15" name="Set visible" sid="399700790843309" type="Sprite16">
                     <param id="0" name="Visibility">0</param>
                 </action>
-                <action id="-15" name="Set visible" sid="695796824493401" type="Sprite6">
+                <action id="-15" name="Set visible" sid="695796824493401" type="Sprite19">
                     <param id="0" name="Visibility">0</param>
                 </action>
                 <action id="-15" name="Set visible" sid="227625990560108" type="Sprite7">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="372059593304612" type="Sprite20">
                     <param id="0" name="Visibility">0</param>
                 </action>
             </actions>
@@ -117,22 +158,25 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="2" name="Set visible" sid="346436037176243" type="Play">
+                <action id="-15" name="Set visible" sid="346436037176243" type="Sprite15">
                     <param id="0" name="Visibility">0</param>
                 </action>
-                <action id="2" name="Set visible" sid="793151162122761" type="Option">
+                <action id="-15" name="Set visible" sid="793151162122761" type="Sprite18">
                     <param id="0" name="Visibility">0</param>
                 </action>
-                <action id="2" name="Set visible" sid="161566744460692" type="Back">
+                <action id="-15" name="Set visible" sid="161566744460692" type="Sprite17">
                     <param id="0" name="Visibility">1</param>
                 </action>
-                <action id="-15" name="Set visible" sid="926813342765869" type="Sprite5">
+                <action id="-15" name="Set visible" sid="926813342765869" type="Sprite16">
                     <param id="0" name="Visibility">0</param>
                 </action>
-                <action id="-15" name="Set visible" sid="716899519268372" type="Sprite6">
+                <action id="-15" name="Set visible" sid="716899519268372" type="Sprite19">
                     <param id="0" name="Visibility">0</param>
                 </action>
                 <action id="-15" name="Set visible" sid="753489844230126" type="Sprite7">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="994406018172510" type="Sprite20">
                     <param id="0" name="Visibility">0</param>
                 </action>
             </actions>
@@ -142,9 +186,9 @@
                 <condition id="6" name="On object clicked" sid="685876610412899" type="Mouse">
                     <param id="0" name="Mouse button">0</param>
                     <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">Sprite5</param>
+                    <param id="2" name="Object clicked">Sprite19</param>
                 </condition>
-                <condition id="-9" name="Is visible" sid="162188135285239" type="Sprite5" />
+                <condition id="-9" name="Is visible" sid="162188135285239" type="Sprite19" />
             </conditions>
             <actions>
                 <action id="-9" name="Set value" sid="697434641848141" type="System">
@@ -154,6 +198,9 @@
                 <action id="-9" name="Set value" sid="326110547818801" type="System">
                     <param id="0" name="Variable">PositionMenu</param>
                     <param id="1" name="Value">1</param>
+                </action>
+                <action id="6" name="Stop" sid="777978308659148" type="Audio">
+                    <param id="0" name="Tag">&quot;boros&quot;</param>
                 </action>
                 <action id="-25" name="Go to layout (by name)" sid="194871757511051" type="System">
                     <param id="0" name="Layout">&quot;Layout 1&quot;</param>
@@ -165,9 +212,9 @@
                 <condition id="6" name="On object clicked" sid="456441372521480" type="Mouse">
                     <param id="0" name="Mouse button">0</param>
                     <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">Sprite6</param>
+                    <param id="2" name="Object clicked">Sprite16</param>
                 </condition>
-                <condition id="-9" name="Is visible" sid="867992831907058" type="Sprite6" />
+                <condition id="-9" name="Is visible" sid="867992831907058" type="Sprite16" />
             </conditions>
             <actions>
                 <action id="-9" name="Set value" sid="578809988126395" type="System">
@@ -177,6 +224,9 @@
                 <action id="-9" name="Set value" sid="794012292440911" type="System">
                     <param id="0" name="Variable">PositionMenu</param>
                     <param id="1" name="Value">1</param>
+                </action>
+                <action id="6" name="Stop" sid="509577943188435" type="Audio">
+                    <param id="0" name="Tag">&quot;boros&quot;</param>
                 </action>
                 <action id="-25" name="Go to layout (by name)" sid="962732155400786" type="System">
                     <param id="0" name="Layout">&quot;Layout 1&quot;</param>
@@ -201,6 +251,9 @@
                     <param id="0" name="Variable">PositionMenu</param>
                     <param id="1" name="Value">1</param>
                 </action>
+                <action id="6" name="Stop" sid="344729289106742" type="Audio">
+                    <param id="0" name="Tag">&quot;boros&quot;</param>
+                </action>
                 <action id="-25" name="Go to layout (by name)" sid="856602656461350" type="System">
                     <param id="0" name="Layout">&quot;Layout 1&quot;</param>
                 </action>
@@ -213,19 +266,19 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="2" name="Set visible" sid="221422605680735" type="Play">
+                <action id="-15" name="Set visible" sid="221422605680735" type="Sprite15">
                     <param id="0" name="Visibility">0</param>
                 </action>
-                <action id="2" name="Set visible" sid="240297460525352" type="Option">
+                <action id="-15" name="Set visible" sid="240297460525352" type="Sprite18">
                     <param id="0" name="Visibility">0</param>
                 </action>
-                <action id="2" name="Set visible" sid="487583769107733" type="Back">
+                <action id="-15" name="Set visible" sid="487583769107733" type="Sprite17">
                     <param id="0" name="Visibility">1</param>
                 </action>
-                <action id="-15" name="Set visible" sid="729608798248742" type="Sprite5">
+                <action id="-15" name="Set visible" sid="729608798248742" type="Sprite16">
                     <param id="0" name="Visibility">1</param>
                 </action>
-                <action id="-15" name="Set visible" sid="731648588443065" type="Sprite6">
+                <action id="-15" name="Set visible" sid="731648588443065" type="Sprite19">
                     <param id="0" name="Visibility">1</param>
                 </action>
                 <action id="-15" name="Set visible" sid="152154845255882" type="Sprite7">
@@ -233,6 +286,9 @@
                 </action>
                 <action id="-15" name="Set visible" sid="431036874664853" type="Sprite2">
                     <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="556605279492086" type="Sprite20">
+                    <param id="0" name="Visibility">1</param>
                 </action>
             </actions>
         </event-block>

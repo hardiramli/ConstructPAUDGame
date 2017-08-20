@@ -850,6 +850,24 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Sprite20" sid="101262265589388">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="760100926606904" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\tegar\OneDrive\Documents\1503223976913.jpg">
+                        <collision-poly>
+                            <point x="0.2875" y="0.116667" />
+                            <point x="0.725" y="0.118333" />
+                            <point x="0.88125" y="0.311667" />
+                            <point x="0.94125" y="0.393333" />
+                            <point x="0.95125" y="0.935" />
+                            <point x="0.055" y="0.926667" />
+                            <point x="0.0675" y="0.406667" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
