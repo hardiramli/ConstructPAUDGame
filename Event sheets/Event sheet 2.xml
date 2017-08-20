@@ -13,6 +13,13 @@
                     <param id="0" name="Name">&quot;Menu1&quot;</param>
                     <param id="1" name="Parameter {n}"></param>
                 </action>
+                <action id="7" name="Play (by name)" sid="440409842519744" type="Audio">
+                    <param id="0" name="Folder">0</param>
+                    <param id="1" name="Audio file name">&quot;boros&quot;</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">0</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="355093945081137">

@@ -711,8 +711,8 @@
     </object-folder>
     <families />
     <layout-folder>
-        <layout>Layout 1.xml</layout>
         <layout>Layout 2.xml</layout>
+        <layout>Layout 1.xml</layout>
         <layout>Layout 3.xml</layout>
     </layout-folder>
     <event-folder>
@@ -750,6 +750,8 @@
         <file name="satu.ogg" />
         <file name="tiga.m4a" />
         <file name="tiga.ogg" />
+        <file name="boros.m4a" />
+        <file name="boros.ogg" />
     </sounds-folder>
     <music-folder />
     <files-folder>
