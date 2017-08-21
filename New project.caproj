@@ -1021,6 +1021,8 @@
         <file name="boros.ogg" />
         <file name="menu.m4a" />
         <file name="menu.ogg" />
+        <file name="game2.m4a" />
+        <file name="game2.ogg" />
     </sounds-folder>
     <music-folder />
     <files-folder>
