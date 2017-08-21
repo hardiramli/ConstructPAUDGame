@@ -971,7 +971,26 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="766705342282809" speed="5">
-                    <frame duration="1" hotspotX="0.5008" hotspotY="0.501695" original-source="C:\Users\tegar\Downloads\brick-texture-background_1035-2260.jpg" />
+                    <frame duration="1" hotspotX="0.50125" hotspotY="0.501667" original-source="C:\Users\M Hardi R\Videos\paud construct\floor.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite25" sid="109810762183418">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="689273538354455" speed="5">
+                    <frame duration="1" hotspotX="0.501211" hotspotY="0.504348" original-source="C:\Users\M Hardi R\Videos\paud construct\logo.png">
+                        <collision-poly>
+                            <point x="0.00242131" y="0.00869565" />
+                            <point x="0.498789" y="0" />
+                            <point x="0.96368" y="0.130435" />
+                            <point x="1" y="0.495652" />
+                            <point x="0.997579" y="0.991304" />
+                            <point x="0.498789" y="1" />
+                            <point x="0.0363196" y="0.869565" />
+                            <point x="0" y="0.495652" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>

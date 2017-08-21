@@ -132,6 +132,9 @@
                 <action id="-15" name="Set visible" sid="221911623932097" type="Sprite18">
                     <param id="0" name="Visibility">1</param>
                 </action>
+                <action id="-15" name="Set visible" sid="272216482644731" type="Sprite25">
+                    <param id="0" name="Visibility">1</param>
+                </action>
                 <action id="-15" name="Set visible" sid="501549420781179" type="Sprite17">
                     <param id="0" name="Visibility">0</param>
                 </action>
@@ -160,6 +163,9 @@
                     <param id="0" name="Visibility">0</param>
                 </action>
                 <action id="-15" name="Set visible" sid="793151162122761" type="Sprite18">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="193340647857164" type="Sprite25">
                     <param id="0" name="Visibility">0</param>
                 </action>
                 <action id="-15" name="Set visible" sid="161566744460692" type="Sprite17">
@@ -262,6 +268,9 @@
                     <param id="0" name="Visibility">0</param>
                 </action>
                 <action id="-15" name="Set visible" sid="240297460525352" type="Sprite18">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="993153371295701" type="Sprite25">
                     <param id="0" name="Visibility">0</param>
                 </action>
                 <action id="-15" name="Set visible" sid="487583769107733" type="Sprite17">

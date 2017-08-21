@@ -293,6 +293,28 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="Sprite25" uid="48">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>419.010803223</x>
+                        <y>62.449569702</y>
+                        <z>0</z>
+                        <width>332.476074219</width>
+                        <height>92.578086853</height>
+                        <depth>0</depth>
+                        <hotspotX>0.50121063</hotspotX>
+                        <hotspotY>0.504347801</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>
