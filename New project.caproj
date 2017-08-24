@@ -994,6 +994,9 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Text4" sid="394150200810025">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
